@@ -155,28 +155,7 @@ export const Contact = () => {
         </div>
       </section>
 
-      {/* Google Maps Embed Section */}
-      <section className="py-16 bg-[#FAF5F2] border-t border-[#E9DED7]">
-        <div className="max-w-[1280px] w-[90%] mx-auto">
-          <div className="text-center max-w-xl mx-auto mb-8">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold block mb-1">Visit Studio</span>
-            <h3 className="font-cinzel text-3xl md:text-4xl font-bold text-[#1A1A1A]">Studio Map & Location</h3>
-          </div>
 
-          <div className="rounded-[32px] overflow-hidden border-2 border-[#D4AF37]/30 shadow-2xl h-[420px] bg-[#E9DED7]">
-            <iframe
-              title="Divya Makeup Artist Studio Google Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.497746592237!2d78.406983075165!3d17.435889783458694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9135a5a1f64f%3A0x6b8f3a3c9b7b9b1a!2sJubilee%20Hills%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-        </div>
-      </section>
 
     </div>
   );
