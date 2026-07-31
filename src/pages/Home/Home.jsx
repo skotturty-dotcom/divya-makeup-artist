@@ -19,13 +19,14 @@ import { packagesData } from '../../data/packagesData';
 import { whyChooseUsData } from '../../data/whyUsData';
 import { homeFaqs } from '../../data/faqData';
 import divyaImg from '../../assets/divya.jpg';
+import divyaCertImg from '../../assets/divya_certificate.jpg';
 
 export const Home = () => {
   const featuredServices = servicesData.slice(0, 6);
 
   return (
-    <div className="overflow-x-hidden">
-      {/* 1. Full Screen Hero Section */}
+    <div className="overflow-hidden">
+      {/* Hero Component */}
       <Hero />
 
       {/* 2. About Preview Section */}
@@ -37,26 +38,26 @@ export const Home = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:col-span-5 relative flex justify-center"
+            className="lg:col-span-6 relative flex justify-center"
           >
-            <div className="relative rounded-[28px] overflow-hidden border border-[#E9DED7] shadow-luxury aspect-[3/4] w-full max-w-[340px] mx-auto bg-[#FAF5F2]">
+            <div className="relative rounded-[28px] overflow-hidden border border-[#E9DED7] shadow-2xl aspect-[4/3] sm:aspect-[16/11] w-full max-w-lg lg:max-w-none mx-auto bg-[#FAF5F2]">
               <img
-                src={divyaImg}
-                alt="Divya Master Makeup Artist"
+                src={divyaCertImg}
+                alt="Divya Certified Master Makeup Artist"
                 className="w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               
               <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl border border-[#E9DED7] shadow-md">
-                <p className="font-cormorant text-xl font-bold text-[#2B2B2B]">Divya</p>
-                <p className="text-[11px] text-[#C78B74] font-poppins font-medium">Founder & Master Artistry Director</p>
+                <p className="font-cinzel text-xl font-bold text-[#2B2B2B]">Divya</p>
+                <p className="text-[11px] text-[#C78B74] font-jakarta font-semibold">ISO Certified Master Artist & Founder</p>
               </div>
             </div>
 
             {/* Floating Experience Badge */}
-            <div className="absolute -top-4 -right-2 sm:right-6 bg-[#C78B74] text-white p-3.5 px-4 rounded-xl shadow-xl hidden sm:flex flex-col items-center justify-center border border-white/20">
-              <span className="font-cormorant text-2xl font-bold leading-none">8+</span>
-              <span className="text-[9px] uppercase font-poppins tracking-wider mt-0.5">Years Exp</span>
+            <div className="absolute -top-4 -right-2 sm:-right-4 bg-[#C78B74] text-white p-3.5 px-4 rounded-xl shadow-xl hidden sm:flex flex-col items-center justify-center border border-white/20">
+              <span className="font-cinzel text-2xl font-bold leading-none">8+</span>
+              <span className="text-[9px] uppercase font-jakarta tracking-wider mt-0.5">Years Exp</span>
             </div>
           </motion.div>
 
@@ -65,7 +66,7 @@ export const Home = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:col-span-7 flex flex-col items-start"
+            className="lg:col-span-6 flex flex-col items-start"
           >
             <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-3">
               <FaSparkles /> Our Philosophy & Story
