@@ -6,7 +6,13 @@ import img8 from '../assets/media/img8.jpeg';
 import img9 from '../assets/media/img9.jpeg';
 import img10 from '../assets/media/img10.jpeg';
 
+import dm_img3 from '../assets/dm/dm_img3.jpeg';
+import dm_img4 from '../assets/dm/dm_img4.jpeg';
+import dm_img5 from '../assets/dm/dm_img5.jpeg';
+import dm_img6 from '../assets/dm/dm_img6.jpeg';
 import dm_img7 from '../assets/dm/dm_img7.jpeg';
+import dm_img8 from '../assets/dm/dm_img8.jpeg';
+import dm_img9 from '../assets/dm/dm_img9.jpeg';
 import dm_img10 from '../assets/dm/dm_img10.jpeg';
 import dm_img11 from '../assets/dm/dm_img11.jpeg';
 import dm_img12 from '../assets/dm/dm_img12.jpeg';
@@ -24,8 +30,6 @@ import vid1 from '../assets/media/vid1.mp4';
 import vid2 from '../assets/media/vid2.mp4';
 import vid3 from '../assets/media/vid3.mp4';
 import dm_vid1 from '../assets/dm/dm_vid1.mp4';
-
-import k_img1 from '../assets/k_photos/k_img1.jpeg';
 
 export const galleryCategories = [
   "All",
@@ -183,9 +187,9 @@ export const galleryItems = [
   },
   {
     id: 901,
-    title: "Traditional South Indian Half-Saree Makeover",
+    title: "Festive Ceremony Family Glam",
     category: "Party",
-    image: k_img1,
+    image: dm_img7,
     client: "Divya Studio Client",
     location: "Hyderabad Event Hall",
     description: "Vibrant traditional makeover with ornate jewelry, fresh hair veni, and dewy HD skin finish."
