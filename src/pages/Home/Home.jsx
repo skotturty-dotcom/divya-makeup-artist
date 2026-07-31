@@ -208,24 +208,6 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* 10. Testimonials Section */}
-      <section className="py-24 bg-[#FAF5F2] border-y border-[#E9DED7]">
-        <div className="max-w-[1280px] w-[90%] mx-auto">
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-poppins font-semibold inline-flex items-center gap-1.5 mb-2">
-              <FaHeart className="text-[#C78B74]" /> Love Notes
-            </span>
-            <h2 className="font-cormorant text-4xl sm:text-5xl font-bold text-[#2B2B2B] mb-4">
-              What Our Brides Say
-            </h2>
-            <p className="text-xs sm:text-sm text-[#666666] font-poppins font-light">
-              Heartfelt reviews from brides who trusted Divya for their most cherished moments.
-            </p>
-          </div>
-
-          <TestimonialsSlider />
-        </div>
-      </section>
 
       {/* 11. FAQ Preview Section */}
       <section className="py-24 bg-[#FFFDFC]">
