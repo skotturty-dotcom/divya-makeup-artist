@@ -9,7 +9,7 @@ import photo5 from '../../assets/photo5.jpeg';
 import photo6 from '../../assets/photo6.jpeg';
 import photo9 from '../../assets/photo9.jpeg';
 import photo10 from '../../assets/photo10.jpeg';
-import divyaImg from '../../assets/divya.jpg';
+import divyaCertImg from '../../assets/divya_certificate.jpg';
 import certificateImg from '../../assets/certificate.jpeg';
 
 export const About = () => {
@@ -56,11 +56,11 @@ export const About = () => {
         <div className="max-w-[1280px] w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           <div className="lg:col-span-6 relative">
-            <div className="rounded-[32px] overflow-hidden border border-[#E9DED7] shadow-2xl aspect-[4/5] bg-[#FAF5F2]">
+            <div className="rounded-[32px] overflow-hidden border border-[#E9DED7] shadow-2xl aspect-[4/3] bg-[#FAF5F2]">
               <img
-                src={divyaImg}
-                alt="Divya Founder"
-                className="w-full h-full object-cover object-top"
+                src={divyaCertImg}
+                alt="Divya Certified Master Makeup Artist"
+                className="w-full h-full object-cover object-center"
               />
             </div>
             

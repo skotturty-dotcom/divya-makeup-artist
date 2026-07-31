@@ -17,8 +17,6 @@ import { LuxuryButton } from '../../components/Buttons/LuxuryButton';
 import { servicesData } from '../../data/servicesData';
 import { packagesData } from '../../data/packagesData';
 import { whyChooseUsData } from '../../data/whyUsData';
-import { homeFaqs } from '../../data/faqData';
-import divyaImg from '../../assets/divya.jpg';
 import divyaCertImg from '../../assets/divya_certificate.jpg';
 
 export const Home = () => {
