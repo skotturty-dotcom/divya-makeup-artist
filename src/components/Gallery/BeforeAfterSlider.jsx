@@ -79,8 +79,7 @@ export const BeforeAfterSlider = () => {
           className="absolute inset-y-0 left-0 overflow-hidden z-10 border-r-2 border-white shadow-2xl"
           style={{ width: `${sliderPosition}%` }}
         >
-          {/* Fixed width container matching parent for pixel-perfect alignment */}
-          <div className="absolute inset-y-0 left-0 w-[800px] max-w-[90vw] md:max-w-[800px] h-full">
+          <div className="absolute inset-0 w-full h-full">
             <img
               src={currentPair.before}
               alt="Before Makeup Look"
@@ -88,7 +87,7 @@ export const BeforeAfterSlider = () => {
             />
           </div>
           <div className="absolute top-4 left-4 bg-black/80 text-white backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-jakarta font-bold shadow-lg z-20">
-            BEFORE (Bare Face)
+            BEFORE (Pre-Glam)
           </div>
         </div>
 

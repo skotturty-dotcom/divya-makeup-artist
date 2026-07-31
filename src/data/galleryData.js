@@ -22,7 +22,6 @@ import dm_img8 from '../assets/dm/dm_img8.jpeg';
 import dm_img9 from '../assets/dm/dm_img9.jpeg';
 import dm_img10 from '../assets/dm/dm_img10.jpeg';
 import dm_img15 from '../assets/dm/dm_img15.jpeg';
-import dm_img16 from '../assets/dm/dm_img16.jpeg';
 import dm_img17 from '../assets/dm/dm_img17.jpeg';
 import dm_img18 from '../assets/dm/dm_img18.jpeg';
 import dm_img19 from '../assets/dm/dm_img19.jpeg';
@@ -217,9 +216,9 @@ export const galleryItems = [
   },
   {
     id: 407,
-    title: "Pre-Bridal 24K Gold Hydra Glow Therapy",
+    title: "Pre-Bridal Skin Glow Therapy",
     category: "Skin",
-    image: dm_img16,
+    image: img7,
     client: "Pre-Bridal Client",
     location: "Divya Studio Sanctuary",
     description: "Medical grade hydration prep producing natural lit-from-within bridal skin luminosity."
@@ -336,34 +335,34 @@ export const galleryItems = [
 export const beforeAfterPairs = [
   {
     id: 1,
-    title: "Bridal Skin Correction & Airbrush HD Glow",
+    title: "Royal South Indian Bridal Transformation",
     subtitle: "Airbrush HD Waterproof Finish",
-    before: dm_img16,
+    before: img1,
     after: dm_img10,
-    notes: "Achieved seamless glow without heavy layering using silicone airbrush color correction."
+    notes: "Enhanced skin luminosity and long-lasting airbrush coverage matching royal gold kanjeevaram drape."
   },
   {
     id: 2,
-    title: "Royalty Reception Sculpting",
+    title: "North Indian Velvet Lehenga Transformation",
     subtitle: "Contour & Eye Artistry",
-    before: dm_img20,
+    before: svc_img1,
     after: img2,
-    notes: "Enhanced cheekbone dimension, defined cut-crease eye makeup, and veil placement."
+    notes: "Sculpted cheekbone dimension, defined cut-crease eye makeup, and double dupatta setting."
   },
   {
     id: 3,
-    title: "Sangeet Radiant Soft Glam",
+    title: "Reception Glass Skin Radiance",
     subtitle: "Glass Skin & Nude Polish",
-    before: dm_img7,
+    before: svc_img3,
     after: svc_img4,
-    notes: "Dewy skin texture transformation with long-lasting dance-proof setting spray."
+    notes: "Dewy glass skin texture transformation with long-lasting dance-proof setting mist."
   },
   {
     id: 4,
     title: "Celebrity Evening Gala Transformation",
     subtitle: "3D Eye Artistry & Bronzed Glow",
-    before: dm_img15,
+    before: img20,
     after: dm_img21,
-    notes: "High-contrast evening lighting optimization and camera-ready airbrushing."
+    notes: "Winged eyeliner precision with bold classic red lip polish and camera-ready airbrushing."
   }
 ];
