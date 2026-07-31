@@ -11,7 +11,6 @@ import { CounterSection } from '../../components/Counter/CounterSection';
 import { BeforeAfterSlider } from '../../components/Gallery/BeforeAfterSlider';
 import { MasonryGallery } from '../../components/Gallery/MasonryGallery';
 import { VideoModalBanner } from '../../components/Video/VideoModal';
-import { TestimonialsSlider } from '../../components/Testimonials/TestimonialsSlider';
 import { FAQAccordion } from '../../components/FAQ/FAQAccordion';
 import { LuxuryButton } from '../../components/Buttons/LuxuryButton';
 import { servicesData } from '../../data/servicesData';
@@ -37,26 +36,28 @@ export const Home = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="lg:col-span-6 relative flex justify-center"
+            className="lg:col-span-6 relative flex flex-col justify-center"
           >
-            <div className="relative rounded-[28px] overflow-hidden border border-[#E9DED7] shadow-2xl aspect-[4/3] sm:aspect-[16/11] w-full max-w-lg lg:max-w-none mx-auto bg-[#FAF5F2]">
+            <div className="relative rounded-[28px] overflow-hidden border-2 border-[#D4AF37]/30 shadow-2xl aspect-[4/3] sm:aspect-[16/11] w-full max-w-lg lg:max-w-none mx-auto bg-[#FAF5F2]">
               <img
                 src={divyaCertImg}
                 alt="Divya Certified Master Makeup Artist"
                 className="w-full h-full object-cover object-center"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               
-              <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-xl border border-[#E9DED7] shadow-md">
-                <p className="font-cinzel text-xl font-bold text-[#2B2B2B]">Divya</p>
-                <p className="text-[11px] text-[#C78B74] font-jakarta font-semibold">ISO Certified Master Artist & Founder</p>
+              {/* Floating Experience Badge */}
+              <div className="absolute top-4 right-4 bg-[#C78B74] text-white p-3 px-4 rounded-xl shadow-xl flex flex-col items-center justify-center border border-white/20">
+                <span className="font-cinzel text-xl font-bold leading-none">5+</span>
+                <span className="text-[9px] uppercase font-jakarta tracking-wider mt-0.5">Years Exp</span>
               </div>
             </div>
 
-            {/* Floating Experience Badge */}
-            <div className="absolute -top-4 -right-2 sm:-right-4 bg-[#C78B74] text-white p-3.5 px-4 rounded-xl shadow-xl hidden sm:flex flex-col items-center justify-center border border-white/20">
-              <span className="font-cinzel text-2xl font-bold leading-none">5+</span>
-              <span className="text-[9px] uppercase font-jakarta tracking-wider mt-0.5">Years Exp</span>
+            {/* Clean Title Card Below the Image */}
+            <div className="w-full max-w-lg lg:max-w-none mt-4 bg-gradient-to-r from-[#FAF5F2] via-white to-[#FAF5F2] p-4.5 rounded-2xl border-2 border-[#D4AF37]/30 shadow-md text-center">
+              <p className="font-cinzel text-2xl font-bold text-[#1A1A1A]">Divya</p>
+              <p className="text-xs text-[#C78B74] font-jakarta font-semibold uppercase tracking-wider mt-1">
+                ISO Certified Master Artist & Founder
+              </p>
             </div>
           </motion.div>
 
@@ -140,13 +141,13 @@ export const Home = () => {
       <section className="py-24 bg-[#FAF5F2] border-y border-[#E9DED7]">
         <div className="max-w-[1280px] w-[90%] mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-poppins font-semibold inline-flex items-center gap-1.5 mb-2">
-              <FaSparkles /> All-Inclusive Packages
+            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
+              <FaSparkles /> Luxury Collections
             </span>
-            <h2 className="font-cormorant text-4xl sm:text-5xl font-bold text-[#2B2B2B] mb-4">
-              Bridal Transformation Suites
+            <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-4">
+              Signature Bridal Packages
             </h2>
-            <p className="text-xs sm:text-sm text-[#666666] font-poppins font-light">
+            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
               Carefully curated packages blending HD airbrush makeup, pre-bridal skincare, hair architecture, and double dupatta draping.
             </p>
           </div>
@@ -179,13 +180,13 @@ export const Home = () => {
       <section className="py-24 bg-[#FAF5F2] border-y border-[#E9DED7]">
         <div className="max-w-[1280px] w-[90%] mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-poppins font-semibold inline-flex items-center gap-1.5 mb-2">
+            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
               <FaSparkles /> Portfolio Showcase
             </span>
-            <h2 className="font-cormorant text-4xl sm:text-5xl font-bold text-[#2B2B2B] mb-4">
+            <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-4">
               Real Brides, Real Radiance
             </h2>
-            <p className="text-xs sm:text-sm text-[#666666] font-poppins font-light">
+            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
               Explore our recent transformations across weddings, receptions, sangeets, and fashion shoots.
             </p>
           </div>
@@ -193,20 +194,19 @@ export const Home = () => {
           <MasonryGallery limit={8} showFilters={true} />
 
           <div className="mt-12 text-center">
-            <LuxuryButton to="/gallery" variant="gold">
+            <LuxuryButton to="/gallery" variant="outline">
               Explore Complete Photo & Video Gallery
             </LuxuryButton>
           </div>
         </div>
       </section>
 
-      {/* 9. Video Section Banner */}
+      {/* 9. Cinematic Video Showcase Banner */}
       <section className="py-12 bg-[#FFFDFC]">
         <div className="max-w-[1280px] w-[90%] mx-auto">
           <VideoModalBanner />
         </div>
       </section>
-
 
       {/* 11. FAQ Preview Section */}
       <section className="py-24 bg-[#FFFDFC]">
@@ -215,11 +215,11 @@ export const Home = () => {
             <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
               <FaSparkles /> Clarifications
             </span>
-            <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-4">
+            <h2 className="font-cinzel text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-xs sm:text-sm text-[#666666] font-jakarta font-light">
-              Find quick answers to common questions about bridal makeup, venue travel, products, and trials.
+            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
+              Answers to common queries regarding trial sessions, venue bookings, products, and packages.
             </p>
           </div>
 
@@ -227,25 +227,33 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* 12. Call To Action Banner */}
-      <section className="py-20 bg-gradient-to-r from-[#1A1A1A] via-[#2B2B2B] to-[#1A1A1A] text-white border-t border-[#D4AF37]/30 relative overflow-hidden">
-        <div className="max-w-[1280px] w-[90%] mx-auto text-center relative z-10">
-          <span className="text-xs uppercase tracking-[3px] text-[#D4AF37] font-poppins font-semibold inline-flex items-center gap-1.5 mb-4 bg-white/10 px-4 py-1.5 rounded-full border border-white/20">
-            <FaSparkles /> Reserve Your Special Date
+      {/* 12. Bottom Booking Call to Action */}
+      <section className="py-20 bg-gradient-to-r from-[#1A1A1A] via-[#2B2B2B] to-[#1A1A1A] text-white text-center border-t-2 border-[#D4AF37]/40 shadow-2xl relative overflow-hidden">
+        <div className="max-w-3xl mx-auto px-6 relative z-10">
+          <span className="text-xs uppercase tracking-[3px] text-[#D4AF37] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-3 bg-black/40 backdrop-blur-md px-4 py-1.5 rounded-full border border-[#D4AF37]/40">
+            <FaSparkles /> Secure Your Wedding Date
           </span>
-          <h2 className="font-cormorant text-4xl sm:text-6xl font-bold mb-6 text-white leading-tight">
-            Book Your Dream Bridal Look Today
+          <h2 className="font-cinzel text-3xl sm:text-5xl font-bold mb-4 text-white">
+            Ready to Look Ethereal on Your Big Day?
           </h2>
-          <p className="text-xs sm:text-base text-white/80 font-poppins font-light max-w-xl mx-auto mb-10">
-            Dates for the upcoming wedding season are filling quickly. Reserve your slot with Divya to guarantee uncompromised luxury and perfection.
+          <p className="text-sm sm:text-base text-white/90 font-jakarta font-medium mb-8 max-w-xl mx-auto">
+            Book your consultation with Master Divya today. Peak wedding season dates fill up 3 to 6 months in advance.
           </p>
-
-          <LuxuryButton to="/book-appointment" variant="gold" size="lg">
-            Schedule Your Appointment Now
-          </LuxuryButton>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <LuxuryButton to="/book-appointment" variant="primary" size="lg">
+              Book Appointment Concierge
+            </LuxuryButton>
+            <a
+              href="https://wa.me/919381824540"
+              target="_blank"
+              rel="noreferrer"
+              className="px-8 py-4 rounded-full border-2 border-white/30 text-white font-jakarta font-semibold text-sm hover:bg-white/10 transition-all"
+            >
+              Instant WhatsApp Inquiry
+            </a>
+          </div>
         </div>
       </section>
-
     </div>
   );
 };

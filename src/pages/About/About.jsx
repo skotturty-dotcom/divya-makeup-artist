@@ -55,8 +55,8 @@ export const About = () => {
       <section className="py-24 bg-[#FFFDFC]">
         <div className="max-w-[1280px] w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
-          <div className="lg:col-span-6 relative">
-            <div className="rounded-[32px] overflow-hidden border border-[#E9DED7] shadow-2xl aspect-[4/3] bg-[#FAF5F2]">
+          <div className="lg:col-span-6 flex flex-col items-center">
+            <div className="rounded-[32px] overflow-hidden border-2 border-[#D4AF37]/30 shadow-2xl aspect-[4/3] w-full bg-[#FAF5F2]">
               <img
                 src={divyaCertImg}
                 alt="Divya Certified Master Makeup Artist"
@@ -64,9 +64,11 @@ export const About = () => {
               />
             </div>
             
-            <div className="absolute -bottom-6 -right-6 bg-white border border-[#E9DED7] p-6 rounded-2xl shadow-xl max-w-xs hidden sm:block">
-              <p className="font-cormorant text-2xl font-bold text-[#C78B74]">Divya</p>
-              <p className="text-xs text-[#2B2B2B] font-jakarta font-semibold">Master Artist & Founder</p>
+            <div className="w-full mt-4 bg-gradient-to-r from-[#FAF5F2] via-white to-[#FAF5F2] p-4.5 rounded-2xl border-2 border-[#D4AF37]/30 shadow-md text-center">
+              <p className="font-cinzel text-2xl font-bold text-[#1A1A1A]">Divya</p>
+              <p className="text-xs text-[#C78B74] font-jakarta font-semibold uppercase tracking-wider mt-1">
+                ISO Certified Master Artist & Founder
+              </p>
             </div>
           </div>
 
