@@ -8,16 +8,20 @@
     --color-accent: #D4AF37;
     --color-bg-main: #FFFDFC;
     --color-bg-alt: #FAF5F2;
-    --color-text-dark: #2B2B2B;
-    --color-text-light: #666666;
+    --color-text-dark: #111111;
+    --color-text-light: #222222;
     --color-border: #E9DED7;
     --color-success: #4CAF50;
   }
 
   body {
     font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
-    color: var(--color-text-dark);
+    color: #111111;
     background-color: var(--color-bg-main);
+  }
+
+  p {
+    color: #111111;
   }
 
   h1, h2, h3, .font-cinzel {

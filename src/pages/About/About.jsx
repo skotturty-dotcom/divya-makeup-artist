@@ -44,7 +44,7 @@ export const About = () => {
             <h1 className="font-cormorant text-4xl sm:text-6xl font-bold text-[#2B2B2B] mb-4">
               The Artistry Behind Divya
             </h1>
-            <p className="text-base text-[#666666] font-poppins font-light leading-relaxed">
+            <p className="text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed">
               Dedicated to crafting timeless bridal transformations, weightless skin perfection, and empowering women through high-definition makeup mastery.
             </p>
           </div>
@@ -66,21 +66,21 @@ export const About = () => {
             
             <div className="absolute -bottom-6 -right-6 bg-white border border-[#E9DED7] p-6 rounded-2xl shadow-xl max-w-xs hidden sm:block">
               <p className="font-cormorant text-2xl font-bold text-[#C78B74]">Divya</p>
-              <p className="text-xs text-[#666666] font-poppins">Master Artist & Founder</p>
+              <p className="text-xs text-[#2B2B2B] font-jakarta font-semibold">Master Artist & Founder</p>
             </div>
           </div>
 
           <div className="lg:col-span-6">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-poppins font-semibold inline-flex items-center gap-1.5 mb-3">
+            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-3">
               <FaCrown className="text-[#D4AF37]" /> Artist Profile
             </span>
-            <h2 className="font-cormorant text-4xl sm:text-5xl font-bold text-[#2B2B2B] mb-6">
+            <h2 className="font-cinzel text-3xl sm:text-5xl font-bold text-[#2B2B2B] mb-6">
               "Every Bride Deserves to Feel Like Royalty"
             </h2>
-            <p className="text-sm text-[#666666] font-poppins font-light leading-relaxed mb-6">
+            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-6">
               With over 8 years of specialized experience in international bridal beauty, Divya has transformed over 1,000 brides for high-profile weddings, destination ceremonies, and celebrity events.
             </p>
-            <p className="text-sm text-[#666666] font-poppins font-light leading-relaxed mb-6">
+            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-6">
               Trained under renowned beauty masters in London and Mumbai, Divya's signature style revolves around weightless skin prep, luminous glass skin, and precision eye definition. She believes that makeup should enhance a woman’s natural feature rather than mask them.
             </p>
 

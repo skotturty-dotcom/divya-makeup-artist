@@ -27,7 +27,7 @@ export const Services = () => {
             <h1 className="font-cormorant text-4xl sm:text-6xl font-bold text-[#2B2B2B] mb-4">
               Beauty Parlor & Artistry Services
             </h1>
-            <p className="text-sm sm:text-base text-[#666666] font-poppins font-light leading-relaxed">
+            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed">
               Explore our complete range of high-definition bridal makeovers, skin therapy, hair architecture, mehendi, and nail lounge services.
             </p>
           </div>

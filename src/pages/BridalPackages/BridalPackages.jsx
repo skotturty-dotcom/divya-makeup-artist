@@ -25,8 +25,8 @@ export const BridalPackages = () => {
             <h1 className="font-cormorant text-4xl sm:text-6xl font-bold text-[#2B2B2B] mb-4">
               Bridal Packages & Suites
             </h1>
-            <p className="text-sm sm:text-base text-[#666666] font-poppins font-light leading-relaxed">
-              All-inclusive luxury makeover tiers designed to suit every ceremony requirement from intimate weddings to 3-day royal destination celebrations.
+            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed">
+              Curated luxury beauty suites for multi-ceremony weddings, engagement events, sangeet galas, and destination transformations.
             </p>
           </div>
         </div>

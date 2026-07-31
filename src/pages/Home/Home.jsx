@@ -73,10 +73,10 @@ export const Home = () => {
             <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-6 leading-tight">
               Crafting Radiant Confidence for Every Bride
             </h2>
-            <p className="text-sm text-[#555555] font-jakarta font-light leading-relaxed mb-6">
+            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-6">
               Founded by acclaimed master artist Divya, Divya Makeup Artist has redefined luxury bridal transformations across India. We believe bridal makeup should never feel like a mask—it should be an ethereal enhancement of your unique beauty.
             </p>
-            <p className="text-sm text-[#555555] font-jakarta font-light leading-relaxed mb-8">
+            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-8">
               Using only top-tier luxury cosmetics from Paris and New York, our artistry combines long-lasting silicone airbrush techniques with individualized skin preparation to ensure effortless radiance from your morning pheras to your evening reception gala.
             </p>
 
@@ -98,7 +98,7 @@ export const Home = () => {
             <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-4">
               Why Choose Divya Makeup Artist?
             </h2>
-            <p className="text-xs sm:text-sm text-[#666666] font-jakarta font-light">
+            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
               Experience unparalleled luxury, hygiene, customized artistry, and peace of mind on your most memorable day.
             </p>
           </div>

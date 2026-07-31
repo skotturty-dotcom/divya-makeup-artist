@@ -74,7 +74,7 @@ export const ServiceDetail = () => {
               <h3 className="font-cormorant text-3xl font-bold text-[#2B2B2B] mb-4">
                 Service Overview
               </h3>
-              <p className="text-sm text-[#666666] font-poppins font-light leading-relaxed mb-4">
+              <p className="text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-4">
                 {service.fullDescription || service.description}
               </p>
             </div>
