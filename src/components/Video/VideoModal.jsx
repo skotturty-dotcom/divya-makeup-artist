@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FaPlay, FaTimes } from 'react-icons/fa';
 import { HiSparkles as FaSparkles } from 'react-icons/hi2';
 import dm_vid1 from '../../assets/dm/dm_vid1.mp4';
-import dm_img12 from '../../assets/dm/dm_img12.jpeg';
+import dm_img11 from '../../assets/dm/dm_img11.jpeg';
 
 export const VideoModalBanner = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -13,11 +13,11 @@ export const VideoModalBanner = () => {
       {/* Luxury Video Section Banner */}
       <div className="relative rounded-[32px] overflow-hidden shadow-2xl border-2 border-[#D4AF37]/40 min-h-[420px] flex items-center justify-center p-8 text-center text-white my-16 group">
         
-        {/* Video Thumbnail Background */}
+        {/* Video Thumbnail Background Cover Photo */}
         <img
-          src={dm_img12}
-          alt="Divya Real Bridal Transformation Video"
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+          src={dm_img11}
+          alt="Divya Royal Bridal Transformation Cover"
+          className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-105"
         />
 
         {/* Gradient Overlay */}
