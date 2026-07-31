@@ -32,21 +32,21 @@ export const Home = () => {
         "@id": "https://www.makeoverbydivyas.in/#business",
         "name": "Makeover by Divyas",
         "url": "https://www.makeoverbydivyas.in/",
-        "telephone": "+919876543210",
+        "telephone": "+919381824540",
         "priceRange": "₹₹₹",
         "image": "https://www.makeoverbydivyas.in/src/assets/logo.jpg",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Nizampet / Nagpur Studio",
-          "addressLocality": "Nagpur",
-          "addressRegion": "Maharashtra",
-          "postalCode": "440001",
+          "streetAddress": "Nizampet Main Road",
+          "addressLocality": "Nizampet, Hyderabad",
+          "addressRegion": "Telangana",
+          "postalCode": "500090",
           "addressCountry": "IN"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 21.1458,
-          "longitude": 79.0882
+          "latitude": 17.5169,
+          "longitude": 78.3842
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -72,9 +72,9 @@ export const Home = () => {
   return (
     <div className="overflow-hidden">
       <SEO 
-        title="Makeover by Divyas | Best Bridal Makeup Artist in Nagpur"
-        description="Looking for the best bridal makeup artist in Nagpur? Makeover by Divyas offers bridal makeup, reception makeup, HD makeup, airbrush makeup, saree draping, hairstyling, and party makeup."
-        keywords="Bridal Makeup Artist in Nagpur, Best Bridal Makeup Artist in Nagpur, Professional Makeup Artist Nagpur, HD Makeup Artist Nagpur, Airbrush Makeup Nagpur, Reception Makeup Artist Nagpur, Engagement Makeup Artist Nagpur, Party Makeup Artist Nagpur, Saree Draping Services Nagpur, Bridal Hairstylist Nagpur, Wedding Makeup Artist Nagpur, Bridal Makeup Near Me, Professional Makeup Near Me, Makeup Artist in Maharashtra, Wedding Makeup Nagpur, Bridal Makeup Packages Nagpur, Makeup Studio Nagpur, Luxury Bridal Makeup Nagpur, Destination Wedding Makeup Artist, Bridal Saree Draping Nagpur"
+        title="Makeover by Divyas | Best Bridal Makeup Artist in Nizampet Hyderabad"
+        description="Looking for the best bridal makeup artist in Nizampet, Hyderabad? Makeover by Divyas offers bridal makeup, reception makeup, HD & airbrush makeup, saree draping, and hairstyling."
+        keywords="Bridal Makeup Artist in Nizampet Hyderabad, Best Bridal Makeup Artist in Nizampet, Professional Makeup Artist Nizampet Hyderabad, HD Makeup Artist Nizampet, Airbrush Makeup Nizampet Hyderabad, Reception Makeup Artist Nizampet, Engagement Makeup Artist Nizampet, Party Makeup Artist Nizampet, Saree Draping Services Nizampet Hyderabad, Bridal Hairstylist Nizampet, Wedding Makeup Artist Hyderabad, Bridal Makeup Near Me Nizampet, Luxury Bridal Makeup Hyderabad, Makeup Studio Nizampet Hyderabad"
         canonicalUrl="https://www.makeoverbydivyas.in/"
         schemaData={homeSchema}
       />
@@ -86,13 +86,13 @@ export const Home = () => {
       <section className="bg-gradient-to-r from-[#FAF4F0] via-white to-[#FAF4F0] py-12 border-b border-[#E8D5C8]/40">
         <div className="max-w-[1280px] w-[90%] mx-auto text-center">
           <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
-            <FaSparkles /> Premier Local & Destination Artist
+            <FaSparkles /> Premier Local Studio & Destination Artist
           </span>
           <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2B2B2B] mb-4 leading-tight">
-            Best Bridal Makeup Artist in Nagpur
+            Best Bridal Makeup Artist in Nizampet, Hyderabad
           </h1>
           <p className="text-base sm:text-lg text-[#555] font-sans max-w-3xl mx-auto leading-relaxed">
-            Welcome to <strong>Makeover by Divyas</strong>—Nagpur's premiere studio for luxury HD bridal makeup, weightless silicone airbrush makeovers, royal reception glam, custom saree draping, and intricate bridal hair styling.
+            Welcome to <strong>Makeover by Divyas</strong>—Nizampet Hyderabad's premiere studio for luxury HD bridal makeup, weightless silicone airbrush makeovers, royal reception glam, traditional South Indian Pelli Kuthuru styling, Poola Jada, and saree draping.
           </p>
         </div>
       </section>
@@ -111,7 +111,7 @@ export const Home = () => {
             <div className="relative rounded-[28px] overflow-hidden border-2 border-[#D4AF37]/30 shadow-2xl aspect-[4/3] sm:aspect-[16/11] w-full max-w-lg lg:max-w-none mx-auto bg-[#FAF5F2]">
               <img
                 src={divyaCertImg}
-                alt="Divya Best Bridal Makeup Artist in Nagpur"
+                alt="Divya Best Bridal Makeup Artist in Nizampet Hyderabad"
                 className="w-full h-full object-cover object-center"
                 loading="lazy"
               />
@@ -125,7 +125,7 @@ export const Home = () => {
             <div className="w-full max-w-lg lg:max-w-none mt-4 bg-gradient-to-r from-[#FAF5F2] via-white to-[#FAF5F2] p-4.5 rounded-2xl border-2 border-[#D4AF37]/30 shadow-md text-center">
               <p className="font-cinzel text-2xl font-bold text-[#1A1A1A]">Divya</p>
               <p className="text-xs text-[#C78B74] font-jakarta font-semibold uppercase tracking-wider mt-1">
-                ISO Certified Master Artist & Founder • Nagpur, MH
+                ISO Certified Master Artist & Founder • Nizampet, Hyderabad
               </p>
             </div>
           </motion.div>
@@ -141,10 +141,10 @@ export const Home = () => {
               <FaSparkles /> Our Philosophy & Story
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-6 leading-tight">
-              Crafting Radiant Confidence for Every Bride in Nagpur
+              Crafting Radiant Confidence for Every Bride in Hyderabad
             </h2>
             <p className="text-sm sm:text-base text-[#444] font-sans leading-relaxed mb-6">
-              Founded by master artist Divya, <strong>Makeover by Divyas</strong> has redefined luxury bridal transformations across Nagpur, Wardha, Amravati, Chandrapur, and surrounding regions in Maharashtra. We believe bridal makeup should feel weightless while providing 18+ hour sweat-resistant coverage.
+              Founded by master artist Divya, <strong>Makeover by Divyas</strong> has redefined luxury bridal transformations across Nizampet, Kukatpally, Bachupally, Miyapur, KPHB Colony, Madhapur, and Gachibowli in Hyderabad. We believe bridal makeup should feel weightless while providing 18+ hour sweat-resistant coverage.
             </p>
             <p className="text-sm sm:text-base text-[#444] font-sans leading-relaxed mb-8">
               Using strictly genuine luxury products from Charlotte Tilbury, Dior, NARS, MAC, and Huda Beauty, we customize every layer to match your skin undertone, wedding outfit, and personal aesthetic.
@@ -166,17 +166,17 @@ export const Home = () => {
               <FaSparkles /> What We Offer
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
-              Professional Bridal Makeup Services
+              Professional Bridal Makeup Services in Nizampet
             </h2>
             <p className="text-sm text-[#555] font-sans">
-              From HD bridal bases to 4K airbrushing, reception glam, saree pleating, and hairstyling in Nagpur.
+              From HD bridal bases to 4K airbrushing, reception glam, saree pleating, and Poola Jada hairstyling in Hyderabad.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
               <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">HD & Airbrush Bridal Makeup</h3>
-              <p className="text-sm text-[#666] mb-4 leading-relaxed">Poreless 24-hour waterproof base tailored for high-definition photography and Vidarbha climate.</p>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Poreless 24-hour waterproof base tailored for high-definition photography and Hyderabad climate.</p>
               <Link to="/bridal-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
             </div>
 
@@ -187,26 +187,26 @@ export const Home = () => {
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Engagement Makeup</h3>
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Engagement & Pelli Kuthuru Makeup</h3>
               <p className="text-sm text-[#666] mb-4 leading-relaxed">Chic, romantic soft glam featuring dewy glass skin, pastel tones, and dance-proof long hold.</p>
               <Link to="/engagement-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
               <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Party Makeup</h3>
-              <p className="text-sm text-[#666] mb-4 leading-relaxed">Sophisticated makeover for bridesmaids, cocktail galas, and special event attendees in Nagpur.</p>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Sophisticated makeover for bridesmaids, cocktail galas, and special event attendees in Nizampet.</p>
               <Link to="/party-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Saree Draping</h3>
-              <p className="text-sm text-[#666] mb-4 leading-relaxed">Precision pleating for Kanjivaram, Nauvari Paithani, Gujarati, and double-dupatta canopy setting.</p>
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Saree Draping Services</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Precision pleating for Kanjivaram silk, Gujarati style, and double-dupatta canopy setting.</p>
               <Link to="/saree-draping" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
             </div>
 
             <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Bridal Hair Styling</h3>
-              <p className="text-sm text-[#666] mb-4 leading-relaxed">Intricate floral updos, Hollywood retro waves, Gajra placement, and hair extension integration.</p>
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Bridal Hair Styling & Poola Jada</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Intricate Poola Jada floral braids, Hollywood retro waves, updos, and hair extension integration.</p>
               <Link to="/bridal-hairstyle" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
             </div>
           </div>
@@ -224,7 +224,7 @@ export const Home = () => {
               Why Choose Makeover by Divyas
             </h2>
             <p className="text-sm text-[#555] font-sans">
-              Discover why brides across Nagpur, Wardha, Amravati, and Chandrapur trust us for their big day.
+              Discover why brides across Nizampet, Kukatpally, Bachupally, Miyapur, and Hyderabad trust us.
             </p>
           </div>
 
@@ -272,20 +272,20 @@ export const Home = () => {
               <FaMapMarkerAlt /> Visit Us / Contact
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-6">
-              Makeover by Divyas Studio in Nagpur
+              Makeover by Divyas Studio in Nizampet, Hyderabad
             </h2>
             
             <div className="space-y-4 text-sm text-[#444] mb-8">
               <div className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-[#C78B74] text-lg shrink-0 mt-0.5" />
                 <div>
-                  <strong>Address:</strong> Makeover by Divyas Studio, Wardha Road / Civil Lines, Nagpur, Maharashtra - 440001
+                  <strong>Address:</strong> Makeover by Divyas Studio, Nizampet Main Road, Nizampet, Hyderabad, Telangana - 500090
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-[#C78B74] text-lg shrink-0" />
                 <div>
-                  <strong>Phone:</strong> +91 98765 43210
+                  <strong>Phone:</strong> +91 93818 24540
                 </div>
               </div>
               <div className="flex items-center gap-3">
@@ -297,25 +297,25 @@ export const Home = () => {
               <div className="flex items-center gap-3">
                 <FaCheckCircle className="text-[#C78B74] text-lg shrink-0" />
                 <div>
-                  <strong>Service Areas:</strong> Nagpur, Wardha, Amravati, Chandrapur, Bhandara, Gondia, Yavatmal, Kamptee, Hingna
+                  <strong>Service Areas:</strong> Nizampet, Kukatpally, Bachupally, Miyapur, KPHB Colony, Pragathi Nagar, Madhapur, Gachibowli, Kondapur, Jubilee Hills
                 </div>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-xl font-medium shadow-md">
+              <a href="https://wa.me/919381824540" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-xl font-medium shadow-md">
                 <FaWhatsapp className="text-xl" /> WhatsApp Now
               </a>
-              <a href="tel:+919876543210" className="inline-flex items-center justify-center gap-2 bg-[#C78B74] text-white px-6 py-3 rounded-xl font-medium shadow-md">
-                <FaPhoneAlt /> Call +91 98765 43210
+              <a href="tel:+919381824540" className="inline-flex items-center justify-center gap-2 bg-[#C78B74] text-white px-6 py-3 rounded-xl font-medium shadow-md">
+                <FaPhoneAlt /> Call +91 93818 24540
               </a>
             </div>
           </div>
 
           <div className="rounded-2xl overflow-hidden shadow-xl border border-[#E8D5C8] h-80 lg:h-96">
             <iframe 
-              title="Makeover by Divyas Google Maps Location Nagpur"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41709540026!2d79.00247653835698!3d21.1458004128509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              title="Makeover by Divyas Google Maps Location Nizampet Hyderabad"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.8329618175593!2d78.3841982!3d17.5168862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9210214a1a5b%3A0xc3160a2b8e3a2410!2sNizampet%2C%20Hyderabad%2C%20Telangana%20500090!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
@@ -338,7 +338,7 @@ export const Home = () => {
               Frequently Asked Questions
             </h2>
             <p className="text-sm text-[#555] font-sans">
-              Got questions about bridal makeup, pricing, airbrushing, or location travel? Find all answers below.
+              Got questions about bridal makeup, pricing, airbrushing, or venue travel in Hyderabad? Find all answers below.
             </p>
           </div>
 
@@ -353,17 +353,17 @@ export const Home = () => {
             <FaSparkles /> Book Your Makeup Appointment
           </span>
           <h2 className="font-serif text-3xl sm:text-5xl font-bold mb-4 text-white">
-            Book Your Makeup Appointment in Nagpur
+            Book Your Makeup Appointment in Nizampet, Hyderabad
           </h2>
           <p className="text-sm sm:text-base text-white/90 font-jakarta font-medium mb-8 max-w-xl mx-auto">
-            Reserve your wedding dates with Nagpur's best bridal makeup artist. Dates fill up fast!
+            Reserve your wedding dates with Nizampet's best bridal makeup artist. Dates fill up fast!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <LuxuryButton to="/book-appointment" variant="primary" size="lg">
               Book Appointment Concierge
             </LuxuryButton>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919381824540"
               target="_blank"
               rel="noreferrer"
               className="px-8 py-4 rounded-full border-2 border-white/30 text-white font-jakarta font-semibold text-sm hover:bg-white/10 transition-all flex items-center gap-2"

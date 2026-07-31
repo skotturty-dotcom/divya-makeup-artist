@@ -21,20 +21,20 @@ export const Navbar = () => {
     { name: 'Airbrush Makeup', path: '/airbrush-makeup' },
     { name: 'HD Makeup', path: '/hd-makeup' },
     { name: 'Reception Makeup', path: '/reception-makeup' },
-    { name: 'Engagement Makeup', path: '/engagement-makeup' },
+    { name: 'Engagement & Pelli Kuthuru', path: '/engagement-makeup' },
     { name: 'Party Makeup', path: '/party-makeup' },
     { name: 'Saree Draping', path: '/saree-draping' },
-    { name: 'Bridal Hairstyling', path: '/bridal-hairstyle' },
+    { name: 'Bridal Hairstyling & Poola Jada', path: '/bridal-hairstyle' },
   ];
 
   const locationSubLinks = [
-    { name: 'Nagpur', path: '/location/bridal-makeup-artist-nagpur' },
-    { name: 'Wardha', path: '/location/bridal-makeup-artist-wardha' },
-    { name: 'Amravati', path: '/location/bridal-makeup-artist-amravati' },
-    { name: 'Chandrapur', path: '/location/bridal-makeup-artist-chandrapur' },
-    { name: 'Bhandara', path: '/location/bridal-makeup-artist-bhandara' },
-    { name: 'Gondia', path: '/location/bridal-makeup-artist-gondia' },
-    { name: 'Yavatmal', path: '/location/bridal-makeup-artist-yavatmal' },
+    { name: 'Nizampet', path: '/location/bridal-makeup-artist-nizampet' },
+    { name: 'Kukatpally & KPHB', path: '/location/bridal-makeup-artist-kukatpally' },
+    { name: 'Bachupally', path: '/location/bridal-makeup-artist-bachupally' },
+    { name: 'Miyapur', path: '/location/bridal-makeup-artist-miyapur' },
+    { name: 'Pragathi Nagar', path: '/location/bridal-makeup-artist-pragathi-nagar' },
+    { name: 'Madhapur & Gachibowli', path: '/location/bridal-makeup-artist-madhapur' },
+    { name: 'Jubilee Hills', path: '/location/bridal-makeup-artist-jubilee-hills' },
   ];
 
   const closeMenu = () => {
@@ -67,7 +67,7 @@ export const Navbar = () => {
             <span className={`text-[9px] tracking-[2px] uppercase font-sans font-semibold mt-1 ${
               isScrolled ? 'text-[#C78B74]' : 'text-[#D4AF37]'
             }`}>
-              Best Bridal Makeup Artist Nagpur
+              Nizampet, Hyderabad
             </span>
           </div>
         </Link>
@@ -91,7 +91,7 @@ export const Navbar = () => {
             </Link>
 
             {servicesDropdown && (
-              <div className="absolute top-full left-0 w-56 bg-white border border-[#E8D5C8] rounded-xl shadow-xl py-2 z-50">
+              <div className="absolute top-full left-0 w-64 bg-white border border-[#E8D5C8] rounded-xl shadow-xl py-2 z-50">
                 {serviceSubLinks.map((s, idx) => (
                   <Link key={idx} to={s.path} className="block px-4 py-2 text-xs text-[#2B2B2B] hover:bg-[#FAF4F0] hover:text-[#C78B74] font-medium">
                     {s.name}
@@ -110,7 +110,7 @@ export const Navbar = () => {
             </span>
 
             {locationDropdown && (
-              <div className="absolute top-full left-0 w-52 bg-white border border-[#E8D5C8] rounded-xl shadow-xl py-2 z-50">
+              <div className="absolute top-full left-0 w-56 bg-white border border-[#E8D5C8] rounded-xl shadow-xl py-2 z-50">
                 {locationSubLinks.map((locItem, idx) => (
                   <Link key={idx} to={locItem.path} className="block px-4 py-2 text-xs text-[#2B2B2B] hover:bg-[#FAF4F0] hover:text-[#C78B74] font-medium">
                     {locItem.name}
@@ -190,12 +190,12 @@ export const Navbar = () => {
                   <NavLink to="/" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Home</NavLink>
                   <NavLink to="/about" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">About</NavLink>
                   <NavLink to="/bridal-makeup" onClick={closeMenu} className="px-4 py-2 text-sm font-medium text-[#C78B74]">Bridal Makeup Artist</NavLink>
-                  <NavLink to="/airbrush-makeup" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Airbrush Makeup Nagpur</NavLink>
+                  <NavLink to="/airbrush-makeup" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Airbrush Makeup Nizampet</NavLink>
                   <NavLink to="/hd-makeup" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">HD Makeup Artist</NavLink>
                   <NavLink to="/reception-makeup" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Reception Makeup</NavLink>
                   <NavLink to="/saree-draping" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Saree Draping</NavLink>
-                  <NavLink to="/bridal-hairstyle" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Bridal Hairstyling</NavLink>
-                  <NavLink to="/location/bridal-makeup-artist-nagpur" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Location: Nagpur</NavLink>
+                  <NavLink to="/bridal-hairstyle" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Bridal Hairstyling & Poola Jada</NavLink>
+                  <NavLink to="/location/bridal-makeup-artist-nizampet" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Location: Nizampet</NavLink>
                   <NavLink to="/blog" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Blog</NavLink>
                   <NavLink to="/contact" onClick={closeMenu} className="px-4 py-2 text-sm font-medium">Contact</NavLink>
                 </nav>
@@ -206,8 +206,8 @@ export const Navbar = () => {
                   Book Appointment
                 </LuxuryButton>
                 <div className="flex items-center justify-center gap-4 text-xs text-[#666666]">
-                  <a href="tel:+919876543210" className="flex items-center gap-1 hover:text-[#C78B74]">
-                    <HiPhone className="text-[#C78B74]" /> +91 98765 43210
+                  <a href="tel:+919381824540" className="flex items-center gap-1 hover:text-[#C78B74]">
+                    <HiPhone className="text-[#C78B74]" /> +91 93818 24540
                   </a>
                 </div>
               </div>

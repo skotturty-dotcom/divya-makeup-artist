@@ -5,193 +5,161 @@ import svc_img3 from '../assets/services_media/svc_img3.jpeg';
 import svc_img4 from '../assets/services_media/svc_img4.jpeg';
 
 export const locationDetails = {
-  "bridal-makeup-artist-nagpur": {
-    slug: "bridal-makeup-artist-nagpur",
-    city: "Nagpur",
-    title: "Best Bridal Makeup Artist in Nagpur | Makeover by Divyas",
-    metaDescription: "Looking for the top bridal makeup artist in Nagpur? Makeover by Divyas offers premier HD bridal makeup, airbrush makeup, saree draping, & hair styling in Nagpur.",
-    h1: "Best Bridal Makeup Artist in Nagpur",
-    subtitle: "Premier Bridal & Beauty Services Across Nagpur & Surrounding Areas",
+  "bridal-makeup-artist-nizampet": {
+    slug: "bridal-makeup-artist-nizampet",
+    city: "Nizampet, Hyderabad",
+    title: "Best Bridal Makeup Artist in Nizampet Hyderabad | Makeover by Divyas",
+    metaDescription: "Looking for the top bridal makeup artist in Nizampet, Hyderabad? Makeover by Divyas offers premier HD & airbrush bridal makeup, saree draping, & Poola Jada in Nizampet.",
+    h1: "Best Bridal Makeup Artist in Nizampet, Hyderabad",
+    subtitle: "Premier Bridal & Beauty Studio Located in Nizampet, Hyderabad",
     image: dm_img10,
-    altText: "Best bridal makeup artist in Nagpur Makeover by Divyas",
-    rating: "5.0 (300+ Reviews in Nagpur)",
+    altText: "Best bridal makeup artist in Nizampet Hyderabad Makeover by Divyas",
+    rating: "5.0 (300+ Reviews in Nizampet)",
 
-    contentOverview: `Nagpur, the winter capital of Maharashtra, is famous for grand cultural weddings, luxurious lawn banquets, and vibrant wedding traditions. Makeover by Divyas is proud to be Nagpur's leading bridal makeup studio, serving brides in Civil Lines, Ramdaspeth, Dharampeth, Sadar, Wardhaman Nagar, Manish Nagar, Besa, Trimurti Nagar, and across all major wedding venues in Nagpur.
+    contentOverview: `Nizampet is one of the premier residential and wedding hubs in Hyderabad. Makeover by Divyas is proud to be based in Nizampet, offering luxury bridal transformations, HD airbrush makeovers, traditional Telugu Pelli Kuthuru styling, Poola Jada placement, and saree draping.
 
-Whether your celebration is at Radisson Blu Nagpur, Hotel Centre Point, Le Méridien, Sayaji Hotel, or sprawling wedding lawns along Wardha Road and Amravati Road, Divya provides full venue-side makeup services with studio lighting setups.`,
+Whether your celebration is at local convention halls in Nizampet, royal banquet halls in Kukatpally and Bachupally, or luxury resorts across Hyderabad, Divya provides full studio and venue-side makeup services with professional studio lighting setups.`,
 
     keyHighlights: [
-      "Top-Rated Bridal Studio located in Nagpur",
-      "Specialized in Maharashtrian Paithani, South Indian Kanjivaram & North Indian Lehenga Glam",
-      "On-Location Travel across all banquet halls and lawns in Nagpur",
+      "Top-Rated Premier Bridal Studio located directly in Nizampet, Hyderabad",
+      "Specialized in Telugu Pelli Kuthuru, Poola Jada & Kanjeevaram Saree Draping",
+      "On-Location Travel across all convention centers and banquet halls in Hyderabad",
       "100% Original International Cosmetics (Charlotte Tilbury, Dior, NARS, MAC)"
     ],
 
-    serviceAreas: ["Civil Lines", "Dharampeth", "Ramdaspeth", "Manish Nagar", "Wardhaman Nagar", "Trimurti Nagar", "Besa", "Koradi Road", "Wardha Road"],
+    serviceAreas: ["Nizampet Village", "Nizampet Road", "Pragathi Nagar", "Kukatpally", "KPHB Colony", "Bachupally", "Miyapur", "Hydernagar", "Gajularamaram"],
 
     faqs: [
-      { question: "Where is Makeover by Divyas located in Nagpur?", answer: "We serve clients across Nagpur with studio appointments and full venue-travel services." },
-      { question: "Do you travel to lawn venues on Wardha Road Nagpur?", answer: "Yes, we travel to all wedding lawns, hotels, and resorts across Nagpur city and outer bypass locations." }
+      { question: "Where is Makeover by Divyas located in Nizampet?", answer: "Our studio is located right in Nizampet, Hyderabad. We offer studio appointments as well as venue visits." },
+      { question: "Do you travel to convention halls in Bachupally and Kukatpally?", answer: "Yes, we regularly service venues across Nizampet, Kukatpally, Bachupally, Miyapur, KPHB, and all parts of Hyderabad." }
     ]
   },
 
-  "bridal-makeup-artist-wardha": {
-    slug: "bridal-makeup-artist-wardha",
-    city: "Wardha",
-    title: "Bridal Makeup Artist in Wardha | Makeover by Divyas",
-    metaDescription: "Book top bridal makeup artist in Wardha. Makeover by Divyas provides outstation HD bridal makeup, airbrush makeover, saree draping & hairstyling in Wardha.",
-    h1: "Premier Bridal Makeup Artist in Wardha",
-    subtitle: "Luxury Destination Bridal Makeup & Styling Services for Wardha Brides",
+  "bridal-makeup-artist-kukatpally": {
+    slug: "bridal-makeup-artist-kukatpally",
+    city: "Kukatpally, Hyderabad",
+    title: "Bridal Makeup Artist in Kukatpally Hyderabad | Makeover by Divyas",
+    metaDescription: "Book top bridal makeup artist in Kukatpally & KPHB, Hyderabad. Makeover by Divyas provides HD bridal makeup, airbrush makeover, saree draping & Poola Jada.",
+    h1: "Premier Bridal Makeup Artist in Kukatpally, Hyderabad",
+    subtitle: "Luxury Bridal Makeup & Hair Styling Services for Kukatpally Brides",
     image: img2,
-    altText: "Bridal makeup artist in Wardha Makeover by Divyas",
-    rating: "4.9 (80+ Wardha Weddings)",
+    altText: "Bridal makeup artist in Kukatpally Hyderabad Makeover by Divyas",
+    rating: "4.9 (180+ Kukatpally Weddings)",
 
-    contentOverview: `Brides in Wardha seeking luxury bridal transformations no longer need to compromise. Makeover by Divyas offers premium outstation bridal makeup services directly in Wardha. Our team travels from Nagpur to Wardha with all necessary equipment, specialized ring lights, and high-definition cosmetics to transform you right at your home or wedding venue in Wardha.`,
+    contentOverview: `Located right next to Kukatpally and KPHB, Makeover by Divyas brings world-class bridal artistry directly to your doorstep. From traditional South Indian Kanjivaram silk saree draping to modern 4K airbrush reception glam, we cater to brides across Kukatpally banquet halls and convention centers.`,
 
     keyHighlights: [
-      "Dedicated Outstation Bridal Travel to Wardha",
+      "5 Minutes from Kukatpally & KPHB Colony",
       "24-Hour Sweat-Proof Airbrush & HD Base Options",
       "Complete Family & Bridesmaid Package Availability"
     ],
 
-    serviceAreas: ["Wardha City", "Hinganghat", "Arvi", "Deoli", "Pulgaon"],
+    serviceAreas: ["Kukatpally Housing Board (KPHB)", "Kukatpally Main Road", "JNTU", "Vivekananda Nagar", "Moosapet"],
 
     faqs: [
-      { question: "Does Divya travel to Wardha for wedding makeup?", answer: "Yes, Divya and her team frequently travel from Nagpur to Wardha for bridal and reception makeup." }
+      { question: "Does Divya travel to Kukatpally venues?", answer: "Yes, Divya and her team travel across Kukatpally for venue and home setup." }
     ]
   },
 
-  "bridal-makeup-artist-amravati": {
-    slug: "bridal-makeup-artist-amravati",
-    city: "Amravati",
-    title: "Bridal Makeup Artist in Amravati | Luxury Bridal Studio",
-    metaDescription: "Looking for a top bridal makeup artist in Amravati? Makeover by Divyas offers professional HD & Airbrush bridal makeup, draping & hairstyles in Amravati.",
-    h1: "Top Bridal Makeup Artist in Amravati",
-    subtitle: "High-Definition Bridal Beauty & Saree Draping Services in Amravati",
+  "bridal-makeup-artist-bachupally": {
+    slug: "bridal-makeup-artist-bachupally",
+    city: "Bachupally, Hyderabad",
+    title: "Bridal Makeup Artist in Bachupally Hyderabad | Makeover by Divyas",
+    metaDescription: "Looking for a top bridal makeup artist in Bachupally? Makeover by Divyas offers professional HD & Airbrush bridal makeup, draping & hairstyles in Bachupally.",
+    h1: "Top Bridal Makeup Artist in Bachupally, Hyderabad",
+    subtitle: "High-Definition Bridal Beauty & Saree Draping Services in Bachupally",
     image: svc_img1,
-    altText: "Bridal makeup artist in Amravati Divya Makeup Artist",
-    rating: "4.9 (95+ Amravati Weddings)",
+    altText: "Bridal makeup artist in Bachupally Hyderabad Divya Makeup Artist",
+    rating: "4.9 (120+ Bachupally Weddings)",
 
-    contentOverview: `Amravati is known for opulent wedding celebrations. Makeover by Divyas brings world-class bridal artistry directly to Amravati. From traditional Maharashtrian nauvari draping to high-glam reception makeovers, we cater to brides across Amravati city and nearby marriage halls.`,
+    contentOverview: `Bachupally is home to many magnificent marriage halls and gardens. Makeover by Divyas provides on-location venue setup for Bachupally brides, delivering flawless camera-ready radiance.`,
 
     keyHighlights: [
-      "On-Location Setup in Amravati Venues & Hotels",
+      "On-Location Setup in Bachupally Venues & Halls",
       "Customized Trial Consultations prior to Wedding Week",
-      "Airbrush Waterproof Makeup ideal for Vidarbha climate"
+      "Airbrush Waterproof Makeup ideal for Hyderabad climate"
     ],
 
-    serviceAreas: ["Amravati City", "Badnera", "Achalpur", "Chandur Railway", "Morshi"],
+    serviceAreas: ["Bachupally X Roads", "Silver Oaks Area", "Mallampet", "Bollaram Road"],
 
     faqs: [
-      { question: "How to book bridal makeup for Amravati wedding?", answer: "Contact us via phone or WhatsApp to verify date availability for Amravati travel." }
+      { question: "How to book bridal makeup for Bachupally wedding?", answer: "Contact us via phone or WhatsApp at +91 93818 24540 to verify date availability." }
     ]
   },
 
-  "bridal-makeup-artist-chandrapur": {
-    slug: "bridal-makeup-artist-chandrapur",
-    city: "Chandrapur",
-    title: "Bridal Makeup Artist in Chandrapur | Makeover by Divyas",
-    metaDescription: "Best bridal makeup artist in Chandrapur. Makeover by Divyas offers luxury HD bridal makeup, airbrush makeup, saree draping & hair styling in Chandrapur.",
-    h1: "Best Bridal Makeup Artist in Chandrapur",
-    subtitle: "Exclusive Destination Bridal Makeover Services in Chandrapur",
+  "bridal-makeup-artist-miyapur": {
+    slug: "bridal-makeup-artist-miyapur",
+    city: "Miyapur, Hyderabad",
+    title: "Bridal Makeup Artist in Miyapur Hyderabad | Makeover by Divyas",
+    metaDescription: "Best bridal makeup artist in Miyapur, Hyderabad. Makeover by Divyas offers luxury HD bridal makeup, airbrush makeup, saree draping & hair styling in Miyapur.",
+    h1: "Best Bridal Makeup Artist in Miyapur, Hyderabad",
+    subtitle: "Exclusive Bridal Makeover Services in Miyapur",
     image: svc_img4,
-    altText: "Bridal makeup service in Chandrapur by Makeover by Divyas",
-    rating: "4.9 (70+ Chandrapur Weddings)",
+    altText: "Bridal makeup service in Miyapur by Makeover by Divyas",
+    rating: "4.9 (110+ Miyapur Weddings)",
 
-    contentOverview: `Brides in Chandrapur can now experience top-tier luxury makeup. Makeover by Divyas travels to Chandrapur to deliver glowing, photo-ready bridal makeovers using Charlotte Tilbury, NARS, and Dior cosmetics.`,
+    contentOverview: `Brides in Miyapur can now experience top-tier luxury makeup. Makeover by Divyas delivers glowing, photo-ready bridal makeovers using Charlotte Tilbury, NARS, and Dior cosmetics.`,
 
     keyHighlights: [
-      "Travel-ready senior makeup team for Chandrapur",
+      "Convenient access to Miyapur marriage halls",
       "High-Definition camera ready base",
       "Bridal + Pre-wedding shoot packages"
     ],
 
-    serviceAreas: ["Chandrapur City", "Ballarpur", "Warora", "Bhadravati", "Rajura"],
+    serviceAreas: ["Miyapur X Roads", "Allwyn X Roads", "Hafeezpet", "Madeenaguda"],
 
     faqs: [
-      { question: "Are travel charges included for Chandrapur bookings?", answer: "Travel charges are calculated transparently based on distance during booking consultation." }
+      { question: "Do you travel to Miyapur banquets?", answer: "Yes, we provide full on-location setup at all Miyapur marriage halls." }
     ]
   },
 
-  "bridal-makeup-artist-bhandara": {
-    slug: "bridal-makeup-artist-bhandara",
-    city: "Bhandara",
-    title: "Bridal Makeup Artist in Bhandara | Makeover by Divyas",
-    metaDescription: "Professional bridal makeup artist in Bhandara. Flawless HD bridal makeover, saree draping & hair updos for weddings in Bhandara.",
-    h1: "Bridal Makeup Artist in Bhandara",
-    subtitle: "Regal Bridal Beauty Transformations On-Venue in Bhandara",
+  "bridal-makeup-artist-pragathi-nagar": {
+    slug: "bridal-makeup-artist-pragathi-nagar",
+    city: "Pragathi Nagar, Hyderabad",
+    title: "Bridal Makeup Artist in Pragathi Nagar Hyderabad | Makeover by Divyas",
+    metaDescription: "Professional bridal makeup artist in Pragathi Nagar. Flawless HD bridal makeover, saree draping & hair updos for weddings in Pragathi Nagar.",
+    h1: "Bridal Makeup Artist in Pragathi Nagar, Hyderabad",
+    subtitle: "Regal Bridal Beauty Transformations in Pragathi Nagar",
     image: svc_img3,
-    altText: "Bridal makeup artist in Bhandara",
-    rating: "4.9 (60+ Bhandara Weddings)",
+    altText: "Bridal makeup artist in Pragathi Nagar",
+    rating: "4.9 (90+ Pragathi Nagar Weddings)",
 
-    contentOverview: `Makeover by Divyas extends specialized bridal makeup services to Bhandara. Enjoy seamless skin prep, mink eyelashes, and perfect double-dupatta draping for your grand ceremony in Bhandara.`,
+    contentOverview: `Makeover by Divyas extends specialized bridal makeup services to Pragathi Nagar. Enjoy seamless skin prep, mink eyelashes, Poola Jada, and perfect saree draping.`,
 
-    keyHighlights: ["Direct Travel from Nagpur to Bhandara", "Expert Saree & Lehenga Draping"],
-    serviceAreas: ["Bhandara City", "Tumsar", "Sakoli", "Pauni", "Lakhani"],
-    faqs: [{ question: "Do you travel to Bhandara banquets?", answer: "Yes, we provide on-venue setup at all locations in Bhandara." }]
+    keyHighlights: ["Right Next to Pragathi Nagar", "Expert Saree & Lehenga Draping"],
+    serviceAreas: ["Pragathi Nagar Lake Road", "More Supermarket Area", "Opposite Nizampet"],
+    faqs: [{ question: "Do you offer home visits in Pragathi Nagar?", answer: "Yes, we provide home and venue visits across Pragathi Nagar." }]
   },
 
-  "bridal-makeup-artist-gondia": {
-    slug: "bridal-makeup-artist-gondia",
-    city: "Gondia",
-    title: "Bridal Makeup Artist in Gondia | Makeover by Divyas",
-    metaDescription: "Top bridal makeup artist servicing Gondia. HD bridal, airbrush makeup, hair styling & saree draping for Gondia brides.",
-    h1: "Bridal Makeup Artist in Gondia",
-    subtitle: "Unmatched Luxury Bridal Makeup & Hair Artistry in Gondia",
+  "bridal-makeup-artist-madhapur": {
+    slug: "bridal-makeup-artist-madhapur",
+    city: "Madhapur & Gachibowli, Hyderabad",
+    title: "Bridal Makeup Artist in Madhapur & Gachibowli Hyderabad | Makeover by Divyas",
+    metaDescription: "Top bridal makeup artist servicing Madhapur, Gachibowli & Hitec City. HD bridal, airbrush makeup, hair styling & saree draping.",
+    h1: "Bridal Makeup Artist in Madhapur & Gachibowli",
+    subtitle: "Unmatched Luxury Bridal Makeup & Hair Artistry in IT Corridor",
     image: dm_img10,
-    altText: "Bridal makeup in Gondia",
-    rating: "4.9 (65+ Gondia Weddings)",
-    contentOverview: `Transform your wedding look in Gondia with Divya's high-definition cosmetics and expert styling techniques tailored for long wedding ceremonies.`,
-    keyHighlights: ["Outstation Travel to Gondia", "Airbrush & HD Makeup"],
-    serviceAreas: ["Gondia City", "Tiroda", "Goregaon", "Amgaon"],
-    faqs: [{ question: "Can we book bridal + family makeup for Gondia?", answer: "Yes, our team caters to the bride and family members together." }]
+    altText: "Bridal makeup in Madhapur Gachibowli Hyderabad",
+    rating: "4.9 (150+ IT Corridor Weddings)",
+    contentOverview: `Transform your wedding look in Madhapur, Gachibowli, and Hitec City with Divya's high-definition cosmetics and expert styling techniques.`,
+    keyHighlights: ["Venue Setup in Luxury Hotels & Convention Centers", "Airbrush & HD Makeup"],
+    serviceAreas: ["Madhapur", "Gachibowli", "Hitec City", "Kondapur", "Raidurg"],
+    faqs: [{ question: "Can we book bridal + family makeup for Hitec City hotel venues?", answer: "Yes, our team caters to the bride and family members together." }]
   },
 
-  "bridal-makeup-artist-yavatmal": {
-    slug: "bridal-makeup-artist-yavatmal",
-    city: "Yavatmal",
-    title: "Bridal Makeup Artist in Yavatmal | Makeover by Divyas",
-    metaDescription: "Book premier bridal makeup artist in Yavatmal. HD makeup, airbrush perfection, saree draping & hair extensions in Yavatmal.",
-    h1: "Bridal Makeup Artist in Yavatmal",
-    subtitle: "Flawless Bridal Makeovers Delivered to Your Venue in Yavatmal",
+  "bridal-makeup-artist-jubilee-hills": {
+    slug: "bridal-makeup-artist-jubilee-hills",
+    city: "Jubilee Hills & Banjara Hills, Hyderabad",
+    title: "Bridal Makeup Artist in Jubilee Hills & Banjara Hills | Makeover by Divyas",
+    metaDescription: "Book premier bridal makeup artist in Jubilee Hills & Banjara Hills, Hyderabad. HD makeup, airbrush perfection, saree draping & luxury hair styling.",
+    h1: "Bridal Makeup Artist in Jubilee Hills & Banjara Hills",
+    subtitle: "Flawless Luxury Bridal Makeovers Delivered to Your Venue",
     image: img2,
-    altText: "Bridal makeup artist Yavatmal",
-    rating: "4.8 (55+ Yavatmal Weddings)",
-    contentOverview: `Makeover by Divyas brings red-carpet quality bridal aesthetics to brides in Yavatmal. We offer customized packages including skin prep, lashes, hair, and draping.`,
-    keyHighlights: ["On-Location Setup in Yavatmal", "Long-Wear Sweat-Proof Base"],
-    serviceAreas: ["Yavatmal City", "Pusad", "Umarkhed", "Wani", "Digras"],
-    faqs: [{ question: "Do you travel to Yavatmal?", answer: "Yes, we provide outstation makeup travel services to Yavatmal." }]
-  },
-
-  "bridal-makeup-artist-kamptee": {
-    slug: "bridal-makeup-artist-kamptee",
-    city: "Kamptee",
-    title: "Bridal Makeup Artist in Kamptee | Makeover by Divyas",
-    metaDescription: "Best bridal makeup artist near Kamptee. HD bridal makeup, airbrush makeup, saree draping & hairstyling for Kamptee brides.",
-    h1: "Bridal Makeup Artist in Kamptee",
-    subtitle: "Luxury Bridal & Event Makeup Services Right Next to Kamptee",
-    image: svc_img1,
-    altText: "Bridal makeup artist Kamptee",
-    rating: "4.9 (110+ Kamptee Weddings)",
-    contentOverview: `Located right near Kamptee, Makeover by Divyas is the preferred choice for Kamptee brides seeking sophisticated bridal and reception makeovers.`,
-    keyHighlights: ["Fast Access to Kamptee Locations", "Specialized Traditional & Modern Styles"],
-    serviceAreas: ["Kamptee City", "Kanhan", "Old Kamptee", "Dragon Palace Area"],
-    faqs: [{ question: "Are home appointments available in Kamptee?", answer: "Yes, we offer home and venue visits across Kamptee." }]
-  },
-
-  "bridal-makeup-artist-hingna": {
-    slug: "bridal-makeup-artist-hingna",
-    city: "Hingna",
-    title: "Bridal Makeup Artist in Hingna | Makeover by Divyas",
-    metaDescription: "Looking for bridal makeup artist in Hingna, Nagpur? Makeover by Divyas provides HD bridal makeup, airbrush makeover, and saree draping in Hingna.",
-    h1: "Bridal Makeup Artist in Hingna",
-    subtitle: "Premier Bridal Makeovers for Hingna & MIDC Wedding Venues",
-    image: svc_img4,
-    altText: "Bridal makeup artist Hingna",
-    rating: "4.9 (90+ Hingna Weddings)",
-    contentOverview: `Hingna hosts numerous beautiful wedding lawns and banquet halls. Makeover by Divyas offers full bridal setup services for venue events in Hingna.`,
-    keyHighlights: ["Close Proximity to Hingna Lawns", "Full Bridal & Bridesmaid Services"],
-    serviceAreas: ["Hingna Road", "MIDC Hingna", "Wanadongri", "YCCE Area"],
-    faqs: [{ question: "Do you visit wedding lawns in Hingna Road?", answer: "Yes, we regularly service wedding lawns along Hingna Road and MIDC area." }]
+    altText: "Bridal makeup artist Jubilee Hills Hyderabad",
+    rating: "4.9 (140+ Jubilee Hills Weddings)",
+    contentOverview: `Makeover by Divyas brings red-carpet quality bridal aesthetics to brides in Jubilee Hills and Banjara Hills. We offer customized packages including skin prep, lashes, hair, and draping.`,
+    keyHighlights: ["On-Location Setup in Luxury Venues", "Long-Wear Sweat-Proof Base"],
+    serviceAreas: ["Jubilee Hills", "Banjara Hills", "Film Nagar", "Madhapur"],
+    faqs: [{ question: "Do you travel to Jubilee Hills convention halls?", answer: "Yes, we provide outstation and local venue makeup travel." }]
   }
 };

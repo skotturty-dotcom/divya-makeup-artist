@@ -62,7 +62,7 @@ export const Footer = () => {
               <FaSparkles /> Stay In Touch
             </span>
             <h3 className="font-serif text-3xl md:text-4xl font-bold mt-2 text-white">
-              Book the Best Bridal Makeup Artist in Nagpur
+              Book the Best Bridal Makeup Artist in Nizampet, Hyderabad
             </h3>
           </div>
 
@@ -70,7 +70,7 @@ export const Footer = () => {
             <Link to="/book-appointment" className="bg-[#C78B74] hover:bg-[#b07560] text-white px-6 py-3 rounded-full font-medium shadow-md">
               Book Appointment
             </Link>
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] hover:bg-[#1ebd59] text-white px-6 py-3 rounded-full font-medium shadow-md flex items-center gap-2">
+            <a href="https://wa.me/919381824540" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] hover:bg-[#1ebd59] text-white px-6 py-3 rounded-full font-medium shadow-md flex items-center gap-2">
               <FaWhatsapp className="text-xl" /> WhatsApp Now
             </a>
           </div>
@@ -89,18 +89,18 @@ export const Footer = () => {
               />
               <div className="flex flex-col">
                 <span className="font-serif text-xl font-bold tracking-wider leading-none text-white">MAKEOVER BY DIVYAS</span>
-                <span className="text-[10px] tracking-[3px] uppercase font-sans font-medium text-[#C78B74]">Nagpur, Maharashtra</span>
+                <span className="text-[10px] tracking-[3px] uppercase font-sans font-medium text-[#C78B74]">Nizampet, Hyderabad</span>
               </div>
             </Link>
             <p className="text-white/70 text-xs leading-relaxed font-sans font-light">
-              Nagpur's premier bridal studio for HD bridal makeup, silicone airbrushing, reception glam, saree draping, and hairstyling.
+              Nizampet, Hyderabad's premier bridal studio for HD bridal makeup, silicone airbrushing, reception glam, saree draping, & Poola Jada.
             </p>
 
             <div className="flex items-center gap-3 pt-2">
               <a href="https://www.instagram.com/beautify_with_divya" target="_blank" rel="noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
                 <FaInstagram />
               </a>
-              <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
+              <a href="https://wa.me/919381824540" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
                 <FaWhatsapp />
               </a>
             </div>
@@ -113,30 +113,29 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-2 font-sans text-xs text-white/70">
               <li><Link to="/bridal-makeup" className="hover:text-[#C78B74] transition-colors">Bridal Makeup Artist</Link></li>
-              <li><Link to="/airbrush-makeup" className="hover:text-[#C78B74] transition-colors">Airbrush Makeup Nagpur</Link></li>
+              <li><Link to="/airbrush-makeup" className="hover:text-[#C78B74] transition-colors">Airbrush Makeup Nizampet</Link></li>
               <li><Link to="/hd-makeup" className="hover:text-[#C78B74] transition-colors">HD Makeup Artist</Link></li>
               <li><Link to="/reception-makeup" className="hover:text-[#C78B74] transition-colors">Reception Makeup</Link></li>
-              <li><Link to="/engagement-makeup" className="hover:text-[#C78B74] transition-colors">Engagement Makeup</Link></li>
+              <li><Link to="/engagement-makeup" className="hover:text-[#C78B74] transition-colors">Engagement & Pelli Kuthuru</Link></li>
               <li><Link to="/party-makeup" className="hover:text-[#C78B74] transition-colors">Party Makeup Artist</Link></li>
               <li><Link to="/saree-draping" className="hover:text-[#C78B74] transition-colors">Saree Draping Services</Link></li>
-              <li><Link to="/bridal-hairstyle" className="hover:text-[#C78B74] transition-colors">Bridal Hairstylist</Link></li>
+              <li><Link to="/bridal-hairstyle" className="hover:text-[#C78B74] transition-colors">Bridal Hairstylist & Poola Jada</Link></li>
             </ul>
           </div>
 
           {/* Col 3: Location Pages Links */}
           <div>
             <h4 className="font-serif text-lg font-semibold text-white mb-4 relative inline-block after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-8 after:h-[2px] after:bg-[#C78B74]">
-              Service Areas
+              Hyderabad Localities
             </h4>
             <ul className="space-y-2 font-sans text-xs text-white/70">
-              <li><Link to="/location/bridal-makeup-artist-nagpur" className="hover:text-[#C78B74] transition-colors">Nagpur</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-wardha" className="hover:text-[#C78B74] transition-colors">Wardha</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-amravati" className="hover:text-[#C78B74] transition-colors">Amravati</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-chandrapur" className="hover:text-[#C78B74] transition-colors">Chandrapur</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-bhandara" className="hover:text-[#C78B74] transition-colors">Bhandara</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-gondia" className="hover:text-[#C78B74] transition-colors">Gondia</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-yavatmal" className="hover:text-[#C78B74] transition-colors">Yavatmal</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-kamptee" className="hover:text-[#C78B74] transition-colors">Kamptee & Hingna</Link></li>
+              <li><Link to="/location/bridal-makeup-artist-nizampet" className="hover:text-[#C78B74] transition-colors">Nizampet</Link></li>
+              <li><Link to="/location/bridal-makeup-artist-kukatpally" className="hover:text-[#C78B74] transition-colors">Kukatpally & KPHB</Link></li>
+              <li><Link to="/location/bridal-makeup-artist-bachupally" className="hover:text-[#C78B74] transition-colors">Bachupally</Link></li>
+              <li><Link to="/location/bridal-makeup-artist-miyapur" className="hover:text-[#C78B74] transition-colors">Miyapur</Link></li>
+              <li><Link to="/location/bridal-makeup-artist-pragathi-nagar" className="hover:text-[#C78B74] transition-colors">Pragathi Nagar</Link></li>
+              <li><Link to="/location/bridal-makeup-artist-madhapur" className="hover:text-[#C78B74] transition-colors">Madhapur & Gachibowli</Link></li>
+              <li><Link to="/location/bridal-makeup-artist-jubilee-hills" className="hover:text-[#C78B74] transition-colors">Jubilee Hills & Banjara Hills</Link></li>
             </ul>
           </div>
 
@@ -158,26 +157,26 @@ export const Footer = () => {
           {/* Col 5: Studio Contact */}
           <div>
             <h4 className="font-serif text-lg font-semibold text-white mb-4 relative inline-block after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-8 after:h-[2px] after:bg-[#C78B74]">
-              Contact Info
+              Studio Location
             </h4>
             <div className="space-y-3 font-sans text-xs text-white/70">
               <div className="flex items-start gap-2">
                 <FaMapMarkerAlt className="text-[#C78B74] mt-0.5 shrink-0" />
-                <span>Nagpur, Maharashtra, India</span>
+                <span>Nizampet, Hyderabad, Telangana - 500090</span>
               </div>
               <div className="flex items-center gap-2">
                 <FaPhoneAlt className="text-[#C78B74] shrink-0" />
-                <a href="tel:+919876543210" className="hover:text-[#C78B74]">+91 98765 43210</a>
+                <a href="tel:+919381824540" className="hover:text-[#C78B74]">+91 93818 24540</a>
               </div>
               <div className="flex items-center gap-2">
                 <FaWhatsapp className="text-[#25D366] shrink-0" />
-                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="hover:text-[#C78B74]">WhatsApp Support</a>
+                <a href="https://wa.me/919381824540" target="_blank" rel="noopener noreferrer" className="hover:text-[#C78B74]">WhatsApp Support</a>
               </div>
               <div className="flex items-start gap-2 pt-2">
                 <FaClock className="text-[#D4AF37] mt-0.5 shrink-0" />
                 <div>
                   <p className="font-semibold text-white">Mon - Sun: 09:00 AM - 09:00 PM</p>
-                  <p className="text-[11px] text-white/50">Destination & Early Venue Visits Available</p>
+                  <p className="text-[11px] text-white/50">Early Morning Pelli Kuthuru Venue Visits Available</p>
                 </div>
               </div>
             </div>
@@ -187,7 +186,7 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-sans text-white/50">
-          <p>© {new Date().getFullYear()} Makeover by Divyas. All Rights Reserved. Best Bridal Makeup Artist in Nagpur.</p>
+          <p>© {new Date().getFullYear()} Makeover by Divyas. All Rights Reserved. Best Bridal Makeup Artist in Nizampet, Hyderabad.</p>
           <div className="flex items-center gap-4">
             <Link to="/contact" className="hover:text-white transition-colors">Privacy Policy</Link>
             <span>•</span>

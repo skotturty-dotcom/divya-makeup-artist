@@ -18,23 +18,23 @@ export const blogPosts = [
     authorRole: "Founder & Master Artistry Director",
     authorImage: img9,
     image: img16,
-    altText: "Top Bridal Makeup Trends 2026 Makeover by Divyas Nagpur",
-    metaTitle: "Top Bridal Makeup Trends in 2026 | Makeover by Divyas",
-    metaDescription: "Discover the top Indian bridal makeup trends for 2026. Glass skin, monochromatic pastels, rose gold highlights, and weightless airbrushing in Nagpur.",
+    altText: "Top Bridal Makeup Trends 2026 Makeover by Divyas Nizampet Hyderabad",
+    metaTitle: "Top Bridal Makeup Trends in 2026 | Makeover by Divyas Hyderabad",
+    metaDescription: "Discover the top South Indian & Telugu bridal makeup trends for 2026. Glass skin, monochromatic pastels, rose gold highlights, and Poola Jada in Nizampet Hyderabad.",
     excerpt: "Discover the rise of luminous glass skin, soft pastel rose gold undertones, weightless airbrushing, and statement monochromatic lips dominating modern Indian weddings in 2026.",
     content: `
-      <p>Bridal beauty in 2026 celebrates understated elegance, effortless glow, and high-definition skin texture. Gone are heavy cakey layers; today's Indian brides opt for weightless, skin-first formulas that enhance natural radiance under studio cameras and mandap lighting alike.</p>
+      <p>Bridal beauty in 2026 celebrates understated elegance, effortless glow, and high-definition skin texture. Gone are heavy cakey layers; today's brides in Hyderabad opt for weightless, skin-first formulas that enhance natural radiance under studio cameras and mandap lighting alike.</p>
 
       <h3>1. Glass-Skin Luminosity with Rose Gold Accents</h3>
       <p>Dewy glass skin continues to reign supreme. Strategic hydration layering with hyaluronic serums creates a lit-from-within flush without excess shine.</p>
 
-      <h3>2. Monochromatic Pastel Palette</h3>
-      <p>Harmonizing blush, eyeshadow, and lip hues in soft peach, warm nude, or dusty rose creates a seamless, regal harmony that complements intricate wedding lehengas.</p>
+      <h3>2. Monochromatic Pastel Palette for Pelli Kuthuru</h3>
+      <p>Harmonizing blush, eyeshadow, and lip hues in soft peach, warm nude, or dusty rose creates a seamless, regal harmony that complements traditional Kanjeevaram silk sarees.</p>
 
       <h3>3. Feathery Brows & 3D Mink Lashes</h3>
       <p>Subtle brow lamination and soft 3D mink lashes open up the eyes while keeping the focus on expressive bridal emotions.</p>
 
-      <p>Book your 2026 bridal makeover with <strong>Makeover by Divyas</strong> in Nagpur for an unforgettable experience.</p>
+      <p>Book your 2026 bridal makeover with <strong>Makeover by Divyas</strong> in Nizampet, Hyderabad for an unforgettable experience.</p>
     `
   },
   {
@@ -47,9 +47,9 @@ export const blogPosts = [
     authorRole: "Founder & Master Artistry Director",
     authorImage: img9,
     image: img19,
-    altText: "HD vs Airbrush Makeup comparison by Divya Makeup Artist",
+    altText: "HD vs Airbrush Makeup comparison by Divya Makeup Artist Nizampet",
     metaTitle: "HD vs Airbrush Makeup: Ultimate Guide for Indian Brides",
-    metaDescription: "Confused between HD and Airbrush makeup for your wedding? Read our complete comparison guide on longevity, skin suitability, finish, and cost in Nagpur.",
+    metaDescription: "Confused between HD and Airbrush makeup for your wedding? Read our complete comparison guide on longevity, skin suitability, finish, and cost in Hyderabad.",
     excerpt: "Confused between High Definition (HD) manual blending and Airbrush micro-spraying? Discover longevity, texture, and skin compatibility differences.",
     content: `
       <p>Selecting between HD (High Definition) makeup and Airbrush makeup is one of the most critical decisions for a bride-to-be.</p>
@@ -58,7 +58,7 @@ export const blogPosts = [
       <p>HD makeup uses liquid and cream foundations enriched with light-diffusing micro-pigments. Applied with professional brushes and sponges, HD makeup provides rich, buildable coverage ideal for concealing blemishes, dark circles, and pigmentation.</p>
 
       <h3>What is Airbrush Makeup?</h3>
-      <p>Airbrush makeup utilizes a motorized compressor to mist micro-fine silicone foundation over the skin. It creates a weightless, non-transferable, 24-hour sweat-proof layer that blurs pores effortlessly.</p>
+      <p>Airbrush makeup utilizes a motorized compressor to mist micro-fine silicone foundation over the skin. It creates a weightless, non-transferable, 24-hour sweat-proof layer that blurs pores effortlessly in warm Hyderabad weather.</p>
 
       <h3>Which Should You Choose?</h3>
       <ul>
@@ -69,7 +69,7 @@ export const blogPosts = [
   },
   {
     id: "how-to-choose-best-bridal-makeup-artist",
-    title: "How to Choose the Best Bridal Makeup Artist in Nagpur",
+    title: "How to Choose the Best Bridal Makeup Artist in Nizampet Hyderabad",
     category: "Wedding Preparation",
     readTime: "6 min read",
     date: "July 10, 2026",
@@ -77,12 +77,12 @@ export const blogPosts = [
     authorRole: "Founder & Master Artistry Director",
     authorImage: img9,
     image: dm_img10,
-    altText: "How to choose best bridal makeup artist in Nagpur",
-    metaTitle: "How to Choose the Best Bridal Makeup Artist in Nagpur",
-    metaDescription: "Checklist for choosing the best bridal makeup artist in Nagpur. Learn about trial sessions, portfolio checks, luxury brands, and booking timelines.",
-    excerpt: "Essential guide and checklist for brides evaluating portfolios, makeup trial sessions, luxury product authenticity, and venue travel capabilities in Nagpur.",
+    altText: "How to choose best bridal makeup artist in Nizampet Hyderabad",
+    metaTitle: "How to Choose the Best Bridal Makeup Artist in Nizampet Hyderabad",
+    metaDescription: "Checklist for choosing the best bridal makeup artist in Nizampet, Hyderabad. Learn about trial sessions, portfolio checks, luxury brands, and booking timelines.",
+    excerpt: "Essential guide and checklist for brides evaluating portfolios, makeup trial sessions, luxury product authenticity, and venue travel capabilities in Hyderabad.",
     content: `
-      <p>Your bridal makeup artist shapes your confidence on your most photographed day. Here is how to make the right choice in Nagpur:</p>
+      <p>Your bridal makeup artist shapes your confidence on your most photographed day. Here is how to make the right choice in Nizampet, Hyderabad:</p>
 
       <h3>1. Review Real Unedited Portfolios</h3>
       <p>Look for high-resolution photos and video clips showing natural skin texture, clean eye work, and drape symmetry rather than heavy face-smoothing filters.</p>
@@ -132,7 +132,7 @@ export const blogPosts = [
     image: img18,
     altText: "Bridal skincare routine 6 month plan",
     metaTitle: "Bridal Skincare Routine Before Wedding: 6-Month Guide",
-    metaDescription: "Month-by-month bridal skincare regimen from 6 months out to wedding day. Hydra Gold facials, hydration, and glow treatments in Nagpur.",
+    metaDescription: "Month-by-month bridal skincare regimen from 6 months out to wedding day. Hydra Gold facials, hydration, and glow treatments in Nizampet Hyderabad.",
     excerpt: "A month-by-month dermatologist and aesthetician approved pre-bridal skincare guide for glowing, smooth skin before foundation application.",
     content: `
       <p>Flawless bridal makeup begins with healthy, hydrated skin underneath. Follow this 6-month timeline:</p>
@@ -159,14 +159,14 @@ export const blogPosts = [
     image: img2,
     altText: "Best Saree Draping Styles for Indian Brides",
     metaTitle: "Best Saree Draping Styles for Modern & Traditional Brides",
-    metaDescription: "Explore iconic saree draping styles including Kanjivaram pleating, Nauvari Kashta, Gujarati pallu, and Can-Can flared gown draping.",
-    excerpt: "From Kanjivaram classic pleats to Nauvari Kashta and modern Can-Can flared silhouettes, master the art of perfect bridal draping.",
+    metaDescription: "Explore iconic saree draping styles including Kanjivaram pleating, Telugu Pelli Kuthuru style, Gujarati pallu, and Can-Can flared gown draping.",
+    excerpt: "From Kanjivaram classic pleats to Pelli Kuthuru traditional drapes and modern Can-Can flared silhouettes, master the art of perfect bridal draping.",
     content: `
       <p>Saree draping defines your wedding posture and comfort. Popular styles include:</p>
 
       <ul>
         <li><strong>Classic South Indian Kanjivaram:</strong> Crisp waist pleats with tight pin security.</li>
-        <li><strong>Authentic Maharashtrian Nauvari:</strong> Nine-yard dhoti style Kashta drape.</li>
+        <li><strong>Traditional Telugu Pelli Kuthuru Drape:</strong> Authentic traditional saree setting.</li>
         <li><strong>Double Dupatta Canopy Draping:</strong> Royal North Indian head veil setting.</li>
       </ul>
     `
@@ -181,7 +181,7 @@ export const blogPosts = [
     authorRole: "Founder & Master Artistry Director",
     authorImage: img9,
     image: svc_img1,
-    altText: "Top Reception Makeup Looks Makeover by Divyas",
+    altText: "Top Reception Makeup Looks Makeover by Divyas Nizampet",
     metaTitle: "Top Reception Makeup Looks for Evening Glamour",
     metaDescription: "Discover stunning reception makeup trends including charcoal smokey eyes, rose gold cut-crease, sculpted cheekbones, and red lips.",
     excerpt: "Elevate your evening reception style with red-carpet smokey eyes, rose gold cut-crease shimmer, and luminous collarbone highlighting.",

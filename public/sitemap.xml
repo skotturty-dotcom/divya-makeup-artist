@@ -82,60 +82,48 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Location Pages -->
+  <!-- Location Pages (Nizampet, Hyderabad Localities) -->
   <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-nagpur</loc>
+    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-nizampet</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-wardha</loc>
+    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-kukatpally</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-bachupally</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-miyapur</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-pragathi-nagar</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-amravati</loc>
+    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-madhapur</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-chandrapur</loc>
+    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-jubilee-hills</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-bhandara</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-gondia</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-yavatmal</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-kamptee</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.makeoverbydivyas.in/location/bridal-makeup-artist-hingna</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.80</priority>
   </url>
 
   <!-- Other Pages -->
