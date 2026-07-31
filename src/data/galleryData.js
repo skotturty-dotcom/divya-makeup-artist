@@ -6,6 +6,8 @@ import img8 from '../assets/media/img8.jpeg';
 import img9 from '../assets/media/img9.jpeg';
 import img10 from '../assets/media/img10.jpeg';
 import img13 from '../assets/media/img13.jpeg';
+import img14 from '../assets/media/img14.jpeg';
+import img15 from '../assets/media/img15.jpeg';
 import img16 from '../assets/media/img16.jpeg';
 import img17 from '../assets/media/img17.jpeg';
 import img20 from '../assets/media/img20.jpeg';
@@ -26,6 +28,8 @@ import dm_img18 from '../assets/dm/dm_img18.jpeg';
 import dm_img19 from '../assets/dm/dm_img19.jpeg';
 import dm_img20 from '../assets/dm/dm_img20.jpeg';
 import dm_img21 from '../assets/dm/dm_img21.jpeg';
+
+import insta1 from '../assets/insta_work/insta_img1.jpeg';
 
 import vid1 from '../assets/media/vid1.mp4';
 import vid2 from '../assets/media/vid2.mp4';
@@ -131,6 +135,62 @@ export const galleryItems = [
     description: "Winged eyeliner precision with bold classic red lip polish and sculpted contour."
   },
 
+  // --- HAIR STYLING SHOWCASE GALLERY ---
+  {
+    id: 406,
+    title: "Traditional South Indian Poola Jada Braid",
+    category: "Hair",
+    image: dm_img15,
+    client: "Divya Studio Bride",
+    location: "Divya Studio",
+    description: "Intricate floral braid architecture woven with fresh jasmine veni, rose petals, and gold accessories."
+  },
+  {
+    id: 412,
+    title: "Royal Hollywood Waves & Hair Blowout",
+    category: "Hair",
+    image: img6,
+    client: "Reception Client",
+    location: "Divya Studio",
+    description: "Volumizing root lift with glossy Hollywood waves and protective shine serum treatment."
+  },
+  {
+    id: 413,
+    title: "Jasmine Veni & Gold Hair Architecture",
+    category: "Hair",
+    image: insta1,
+    client: "Bridal Client",
+    location: "Hyderabad Convention Centre",
+    description: "Sculpted braid styling adorned with hand-strung fresh jasmine flowers and traditional gold billai."
+  },
+  {
+    id: 414,
+    title: "Bridal Crown Updo & Dupatta Hair Anchoring",
+    category: "Hair",
+    image: img14,
+    client: "Royal Bride",
+    location: "Taj Falaknuma",
+    description: "High volume structured bridal updo styled for heavy dupatta support and maang tikka placement."
+  },
+  {
+    id: 415,
+    title: "Romantic Soft Curls & Rose Accent Hair",
+    category: "Hair",
+    image: img15,
+    client: "Engagement Client",
+    location: "Divya Studio",
+    description: "Cascading textured soft curls with natural fresh rose accents and shine lock spray."
+  },
+  {
+    id: 416,
+    title: "Traditional Bridal Hair Bun & Net Draping",
+    category: "Hair",
+    image: img10,
+    client: "Traditional Bride",
+    location: "Private Residence",
+    description: "Neat low bun wrapped with double jasmine veni rings and gold hair clip pin setting."
+  },
+
   // --- OTHER SPECIALIZED 4K SERVICES ---
   {
     id: 405,
@@ -140,15 +200,6 @@ export const galleryItems = [
     client: "Maid of Honor",
     location: "JW Marriott",
     description: "Camera-ready evening glam featuring bronzed contouring and 3D glitter eye accents."
-  },
-  {
-    id: 406,
-    title: "Bridal Veni Floral Braid Styling",
-    category: "Hair",
-    image: dm_img15,
-    client: "Divya Studio Bride",
-    location: "Divya Studio",
-    description: "Traditional poola jada hair architecture woven with fresh jasmine and orchids."
   },
   {
     id: 407,
