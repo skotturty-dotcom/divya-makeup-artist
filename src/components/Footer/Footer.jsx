@@ -17,6 +17,12 @@ import { HiSparkles as FaSparkles } from 'react-icons/hi2';
 import { LuxuryButton } from '../Buttons/LuxuryButton';
 
 import logoImg from '../../assets/logo.jpg';
+import insta1 from '../../assets/insta_work/insta_img1.jpeg';
+import insta3 from '../../assets/insta_work/insta_img3.jpeg';
+import insta4 from '../../assets/insta_work/insta_img4.jpeg';
+import insta5 from '../../assets/insta_work/insta_img5.jpeg';
+import insta9 from '../../assets/insta_work/insta_img9.jpeg';
+import insta12 from '../../assets/insta_work/insta_img12.jpeg';
 
 export const Footer = () => {
   const [newsletterEmail, setNewsletterEmail] = useState('');
@@ -32,12 +38,12 @@ export const Footer = () => {
   };
 
   const instagramPosts = [
-    { id: 1, img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=300" },
-    { id: 2, img: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&q=80&w=300" },
-    { id: 3, img: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=300" },
-    { id: 4, img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80&w=300" },
-    { id: 5, img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=300" },
-    { id: 6, img: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=300" },
+    { id: 1, img: insta1 },
+    { id: 2, img: insta3 },
+    { id: 3, img: insta4 },
+    { id: 4, img: insta5 },
+    { id: 5, img: insta9 },
+    { id: 6, img: insta12 },
   ];
 
   return (
