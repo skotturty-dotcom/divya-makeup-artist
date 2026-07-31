@@ -1,18 +1,13 @@
-import img1 from '../assets/media/img1.jpeg';
-import img2 from '../assets/media/img2.jpeg';
-import img6 from '../assets/media/img6.jpeg';
-import img7 from '../assets/media/img7.jpeg';
-import img8 from '../assets/media/img8.jpeg';
-import img9 from '../assets/media/img9.jpeg';
-import img10 from '../assets/media/img10.jpeg';
-import img11 from '../assets/media/img11.jpeg';
-import img12 from '../assets/media/img12.jpeg';
+import dm_img10 from '../assets/dm/dm_img10.jpeg';
+import dm_img11 from '../assets/dm/dm_img11.jpeg';
 import dm_img12 from '../assets/dm/dm_img12.jpeg';
-
-import service_img1 from '../assets/services_media/service_img1.jpeg';
-import service_img2 from '../assets/services_media/service_img2.jpeg';
-import service_img3 from '../assets/services_media/service_img3.jpeg';
-import service_img4 from '../assets/services_media/service_img4.jpeg';
+import dm_img13 from '../assets/dm/dm_img13.jpeg';
+import dm_img14 from '../assets/dm/dm_img14.jpeg';
+import dm_img15 from '../assets/dm/dm_img15.jpeg';
+import dm_img16 from '../assets/dm/dm_img16.jpeg';
+import dm_img17 from '../assets/dm/dm_img17.jpeg';
+import dm_img18 from '../assets/dm/dm_img18.jpeg';
+import dm_img19 from '../assets/dm/dm_img19.jpeg';
 
 export const servicesData = [
   {
@@ -24,7 +19,7 @@ export const servicesData = [
     duration: "3 - 4 Hours",
     popular: true,
     rating: 5.0,
-    image: service_img1,
+    image: dm_img10,
     benefits: [
       "Waterproof & Sweat-resistant 18-hour HD coverage",
       "Customized skin prep with luxury serums & hydration masks",
@@ -46,7 +41,7 @@ export const servicesData = [
     duration: "3.5 Hours",
     popular: true,
     rating: 5.0,
-    image: service_img2,
+    image: dm_img11,
     benefits: [
       "Ultra HD non-transferable formula lasting 24 hours",
       "Ideal for sensitive & oily skin types prone to shine",
@@ -66,7 +61,7 @@ export const servicesData = [
     duration: "2.5 Hours",
     popular: false,
     rating: 4.9,
-    image: service_img3,
+    image: dm_img12,
     benefits: [
       "High-contrast evening lighting optimization",
       "Dramatic 3D shimmer or soft smokey eye artistry",
@@ -82,7 +77,7 @@ export const servicesData = [
     duration: "2 Hours",
     popular: false,
     rating: 4.9,
-    image: service_img4,
+    image: dm_img13,
     benefits: [
       "Dewy glass-skin finish with soft pastel palettes",
       "Custom braid, bun, or Hollywood waves hair styling",
@@ -98,7 +93,7 @@ export const servicesData = [
     duration: "1.5 Hours",
     popular: false,
     rating: 4.8,
-    image: img12,
+    image: dm_img14,
     benefits: [
       "Custom eye look matching outfit & theme",
       "Professional hair blowout or soft curls",
@@ -114,7 +109,7 @@ export const servicesData = [
     duration: "1.5 Hours",
     popular: false,
     rating: 4.9,
-    image: img6,
+    image: dm_img15,
     benefits: [
       "Heat protection serum & shine infusion treatment",
       "Real floral insertion & hair jewelry anchoring",
@@ -130,7 +125,7 @@ export const servicesData = [
     duration: "2 Hours",
     popular: true,
     rating: 5.0,
-    image: img7,
+    image: dm_img16,
     benefits: [
       "Deep pore exfoliation with ultrasonic scrubber",
       "24K Gold luxury collagen mask infusion",
@@ -146,7 +141,7 @@ export const servicesData = [
     duration: "2 Hours",
     popular: false,
     rating: 4.9,
-    image: img8,
+    image: dm_img17,
     benefits: [
       "Chip-resistant formula lasting up to 5 weeks",
       "Handmade 3D jewel accents & gold foil designs",
@@ -162,7 +157,7 @@ export const servicesData = [
     duration: "4 - 5 Hours",
     popular: false,
     rating: 5.0,
-    image: img9,
+    image: dm_img18,
     benefits: [
       "100% natural chemical-free organic henna cone",
       "Customized bride & groom portrait motifs",
@@ -178,7 +173,7 @@ export const servicesData = [
     duration: "45 Mins",
     popular: false,
     rating: 4.9,
-    image: img10,
+    image: dm_img19,
     benefits: [
       "Custom pleating & pin concealed locking",
       "Dupatta volume styling for 360-degree photography",
