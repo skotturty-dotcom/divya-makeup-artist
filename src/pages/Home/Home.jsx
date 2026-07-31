@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FaArrowRight, FaCheckCircle, FaAward, FaHeart } from 'react-icons/fa';
+import { FaArrowRight, FaCheckCircle, FaAward, FaHeart, FaStar, FaWhatsapp, FaPhoneAlt, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 import { HiSparkles as FaSparkles } from 'react-icons/hi2';
+import { SEO } from '../../components/SEO/SEO';
 import { Hero } from '../../components/Hero/Hero';
 import { ServiceCard } from '../../components/Cards/ServiceCard';
 import { WhyChooseCard } from '../../components/Cards/WhyChooseCard';
@@ -22,13 +23,82 @@ import divyaCertImg from '../../assets/divya_certificate.jpg';
 export const Home = () => {
   const featuredServices = servicesData.slice(0, 6);
 
+  // Schema.org LocalBusiness & ProfessionalService
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://www.makeoverbydivyas.in/#business",
+        "name": "Makeover by Divyas",
+        "url": "https://www.makeoverbydivyas.in/",
+        "telephone": "+919876543210",
+        "priceRange": "₹₹₹",
+        "image": "https://www.makeoverbydivyas.in/src/assets/logo.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Nizampet / Nagpur Studio",
+          "addressLocality": "Nagpur",
+          "addressRegion": "Maharashtra",
+          "postalCode": "440001",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 21.1458,
+          "longitude": 79.0882
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "09:00",
+          "closes": "21:00"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": homeFaqs.map(faq => ({
+          "@type": "Question",
+          "name": faq.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.answer
+          }
+        }))
+      }
+    ]
+  };
+
   return (
     <div className="overflow-hidden">
+      <SEO 
+        title="Makeover by Divyas | Best Bridal Makeup Artist in Nagpur"
+        description="Looking for the best bridal makeup artist in Nagpur? Makeover by Divyas offers bridal makeup, reception makeup, HD makeup, airbrush makeup, saree draping, hairstyling, and party makeup."
+        keywords="Bridal Makeup Artist in Nagpur, Best Bridal Makeup Artist in Nagpur, Professional Makeup Artist Nagpur, HD Makeup Artist Nagpur, Airbrush Makeup Nagpur, Reception Makeup Artist Nagpur, Engagement Makeup Artist Nagpur, Party Makeup Artist Nagpur, Saree Draping Services Nagpur, Bridal Hairstylist Nagpur, Wedding Makeup Artist Nagpur, Bridal Makeup Near Me, Professional Makeup Near Me, Makeup Artist in Maharashtra, Wedding Makeup Nagpur, Bridal Makeup Packages Nagpur, Makeup Studio Nagpur, Luxury Bridal Makeup Nagpur, Destination Wedding Makeup Artist, Bridal Saree Draping Nagpur"
+        canonicalUrl="https://www.makeoverbydivyas.in/"
+        schemaData={homeSchema}
+      />
+
       {/* Hero Component */}
       <Hero />
 
-      {/* 2. About Preview Section */}
-      <section className="py-24 bg-[#FFFDFC]">
+      {/* H1 SEO Headline & Intro Section */}
+      <section className="bg-gradient-to-r from-[#FAF4F0] via-white to-[#FAF4F0] py-12 border-b border-[#E8D5C8]/40">
+        <div className="max-w-[1280px] w-[90%] mx-auto text-center">
+          <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
+            <FaSparkles /> Premier Local & Destination Artist
+          </span>
+          <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2B2B2B] mb-4 leading-tight">
+            Best Bridal Makeup Artist in Nagpur
+          </h1>
+          <p className="text-base sm:text-lg text-[#555] font-sans max-w-3xl mx-auto leading-relaxed">
+            Welcome to <strong>Makeover by Divyas</strong>—Nagpur's premiere studio for luxury HD bridal makeup, weightless silicone airbrush makeovers, royal reception glam, custom saree draping, and intricate bridal hair styling.
+          </p>
+        </div>
+      </section>
+
+      {/* About Preview Section */}
+      <section className="py-20 bg-[#FFFDFC]">
         <div className="max-w-[1280px] w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           
           <motion.div
@@ -41,22 +111,21 @@ export const Home = () => {
             <div className="relative rounded-[28px] overflow-hidden border-2 border-[#D4AF37]/30 shadow-2xl aspect-[4/3] sm:aspect-[16/11] w-full max-w-lg lg:max-w-none mx-auto bg-[#FAF5F2]">
               <img
                 src={divyaCertImg}
-                alt="Divya Certified Master Makeup Artist"
+                alt="Divya Best Bridal Makeup Artist in Nagpur"
                 className="w-full h-full object-cover object-center"
+                loading="lazy"
               />
               
-              {/* Floating Experience Badge */}
               <div className="absolute top-4 right-4 bg-[#C78B74] text-white p-3 px-4 rounded-xl shadow-xl flex flex-col items-center justify-center border border-white/20">
                 <span className="font-cinzel text-xl font-bold leading-none">5+</span>
                 <span className="text-[9px] uppercase font-jakarta tracking-wider mt-0.5">Years Exp</span>
               </div>
             </div>
 
-            {/* Clean Title Card Below the Image */}
             <div className="w-full max-w-lg lg:max-w-none mt-4 bg-gradient-to-r from-[#FAF5F2] via-white to-[#FAF5F2] p-4.5 rounded-2xl border-2 border-[#D4AF37]/30 shadow-md text-center">
               <p className="font-cinzel text-2xl font-bold text-[#1A1A1A]">Divya</p>
               <p className="text-xs text-[#C78B74] font-jakarta font-semibold uppercase tracking-wider mt-1">
-                ISO Certified Master Artist & Founder
+                ISO Certified Master Artist & Founder • Nagpur, MH
               </p>
             </div>
           </motion.div>
@@ -71,14 +140,14 @@ export const Home = () => {
             <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-3">
               <FaSparkles /> Our Philosophy & Story
             </span>
-            <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-6 leading-tight">
-              Crafting Radiant Confidence for Every Bride
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-6 leading-tight">
+              Crafting Radiant Confidence for Every Bride in Nagpur
             </h2>
-            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-6">
-              Founded by acclaimed master artist Divya, Divya Makeup Artist has redefined luxury bridal transformations across India. We believe bridal makeup should never feel like a mask—it should be an ethereal enhancement of your unique beauty.
+            <p className="text-sm sm:text-base text-[#444] font-sans leading-relaxed mb-6">
+              Founded by master artist Divya, <strong>Makeover by Divyas</strong> has redefined luxury bridal transformations across Nagpur, Wardha, Amravati, Chandrapur, and surrounding regions in Maharashtra. We believe bridal makeup should feel weightless while providing 18+ hour sweat-resistant coverage.
             </p>
-            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-8">
-              Using only top-tier luxury cosmetics from Paris and New York, our artistry combines long-lasting silicone airbrush techniques with individualized skin preparation to ensure effortless radiance from your morning pheras to your evening reception gala.
+            <p className="text-sm sm:text-base text-[#444] font-sans leading-relaxed mb-8">
+              Using strictly genuine luxury products from Charlotte Tilbury, Dior, NARS, MAC, and Huda Beauty, we customize every layer to match your skin undertone, wedding outfit, and personal aesthetic.
             </p>
 
             <LuxuryButton to="/about" variant="primary" icon={<FaArrowRight className="text-xs" />}>
@@ -89,18 +158,73 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* 3. Why Choose Us Section */}
-      <section className="py-24 bg-[#FAF5F2] border-y border-[#E9DED7]">
+      {/* Services Grid Section */}
+      <section className="py-20 bg-[#FAF5F2] border-y border-[#E9DED7]">
         <div className="max-w-[1280px] w-[90%] mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
-              <FaSparkles /> The Gold Standard
+              <FaSparkles /> What We Offer
             </span>
-            <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-4">
-              Why Choose Divya Makeup Artist?
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
+              Professional Bridal Makeup Services
             </h2>
-            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
-              Experience unparalleled luxury, hygiene, customized artistry, and peace of mind on your most memorable day.
+            <p className="text-sm text-[#555] font-sans">
+              From HD bridal bases to 4K airbrushing, reception glam, saree pleating, and hairstyling in Nagpur.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">HD & Airbrush Bridal Makeup</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Poreless 24-hour waterproof base tailored for high-definition photography and Vidarbha climate.</p>
+              <Link to="/bridal-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Reception Makeup</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">High-glam evening reception looks with dramatic smokey eyes, rose gold cut-crease & collarbone glow.</p>
+              <Link to="/reception-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Engagement Makeup</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Chic, romantic soft glam featuring dewy glass skin, pastel tones, and dance-proof long hold.</p>
+              <Link to="/engagement-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Party Makeup</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Sophisticated makeover for bridesmaids, cocktail galas, and special event attendees in Nagpur.</p>
+              <Link to="/party-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Saree Draping</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Precision pleating for Kanjivaram, Nauvari Paithani, Gujarati, and double-dupatta canopy setting.</p>
+              <Link to="/saree-draping" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
+              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Bridal Hair Styling</h3>
+              <p className="text-sm text-[#666] mb-4 leading-relaxed">Intricate floral updos, Hollywood retro waves, Gajra placement, and hair extension integration.</p>
+              <Link to="/bridal-hairstyle" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Section */}
+      <section className="py-20 bg-[#FFFDFC]">
+        <div className="max-w-[1280px] w-[90%] mx-auto">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
+              <FaSparkles /> Excellence Guaranteed
+            </span>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
+              Why Choose Makeover by Divyas
+            </h2>
+            <p className="text-sm text-[#555] font-sans">
+              Discover why brides across Nagpur, Wardha, Amravati, and Chandrapur trust us for their big day.
             </p>
           </div>
 
@@ -112,82 +236,21 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* 4. Featured Services Section */}
-      <section className="py-24 bg-[#FFFDFC]">
-        <div className="max-w-[1280px] w-[90%] mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
-            <div>
-              <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
-                <FaSparkles /> Signature Artistry
-              </span>
-              <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B]">
-                Our Featured Services
-              </h2>
-            </div>
-            <LuxuryButton to="/services" variant="outline" size="sm">
-              View All Services
-            </LuxuryButton>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featuredServices.map((service) => (
-              <ServiceCard key={service.id} service={service} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 5. Bridal Packages Preview Section */}
-      <section className="py-24 bg-[#FAF5F2] border-y border-[#E9DED7]">
-        <div className="max-w-[1280px] w-[90%] mx-auto">
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
-              <FaSparkles /> Luxury Collections
-            </span>
-            <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-4">
-              Signature Bridal Packages
-            </h2>
-            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
-              Carefully curated packages blending HD airbrush makeup, pre-bridal skincare, hair architecture, and double dupatta draping.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 items-stretch">
-            {packagesData.map((pkg) => (
-              <PackageCard key={pkg.id} pkg={pkg} />
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <LuxuryButton to="/bridal-packages" variant="secondary">
-              Compare Full Package Features & Details
-            </LuxuryButton>
-          </div>
-        </div>
-      </section>
-
-      {/* 6. Animated Statistics Counter Section */}
+      {/* Counter Statistics */}
       <CounterSection />
 
-      {/* 7. Interactive Before & After Section */}
-      <section className="py-24 bg-[#FFFDFC]">
-        <div className="max-w-[1280px] w-[90%] mx-auto">
-          <BeforeAfterSlider />
-        </div>
-      </section>
-
-      {/* 8. Gallery Preview Section */}
-      <section className="py-24 bg-[#FAF5F2] border-y border-[#E9DED7]">
+      {/* Gallery Showcase */}
+      <section className="py-20 bg-[#FAF5F2] border-y border-[#E9DED7]">
         <div className="max-w-[1280px] w-[90%] mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
-              <FaSparkles /> Portfolio Showcase
+              <FaSparkles /> Visual Proof
             </span>
-            <h2 className="font-cinzel text-3xl sm:text-4xl xl:text-5xl font-bold text-[#2B2B2B] mb-4">
-              Real Brides, Real Radiance
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
+              Our Bridal Gallery
             </h2>
-            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
-              Explore our recent transformations across weddings, receptions, sangeets, and fashion shoots.
+            <p className="text-sm text-[#555] font-sans">
+              Real bridal transformations captured in high definition.
             </p>
           </div>
 
@@ -195,31 +258,87 @@ export const Home = () => {
 
           <div className="mt-12 text-center">
             <LuxuryButton to="/gallery" variant="outline">
-              Explore Complete Photo & Video Gallery
+              Explore Complete Photo Gallery
             </LuxuryButton>
           </div>
         </div>
       </section>
 
-      {/* 9. Cinematic Video Showcase Banner */}
-      <section className="py-12 bg-[#FFFDFC]">
-        <div className="max-w-[1280px] w-[90%] mx-auto">
-          <VideoModalBanner />
+      {/* Google Business & Local MAP Section */}
+      <section className="py-20 bg-[#FFFDFC]">
+        <div className="max-w-[1280px] w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
+              <FaMapMarkerAlt /> Visit Us / Contact
+            </span>
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-6">
+              Makeover by Divyas Studio in Nagpur
+            </h2>
+            
+            <div className="space-y-4 text-sm text-[#444] mb-8">
+              <div className="flex items-start gap-3">
+                <FaMapMarkerAlt className="text-[#C78B74] text-lg shrink-0 mt-0.5" />
+                <div>
+                  <strong>Address:</strong> Makeover by Divyas Studio, Wardha Road / Civil Lines, Nagpur, Maharashtra - 440001
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <FaPhoneAlt className="text-[#C78B74] text-lg shrink-0" />
+                <div>
+                  <strong>Phone:</strong> +91 98765 43210
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <FaClock className="text-[#C78B74] text-lg shrink-0" />
+                <div>
+                  <strong>Hours:</strong> Mon - Sun: 09:00 AM - 09:00 PM
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <FaCheckCircle className="text-[#C78B74] text-lg shrink-0" />
+                <div>
+                  <strong>Service Areas:</strong> Nagpur, Wardha, Amravati, Chandrapur, Bhandara, Gondia, Yavatmal, Kamptee, Hingna
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-4">
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-xl font-medium shadow-md">
+                <FaWhatsapp className="text-xl" /> WhatsApp Now
+              </a>
+              <a href="tel:+919876543210" className="inline-flex items-center justify-center gap-2 bg-[#C78B74] text-white px-6 py-3 rounded-xl font-medium shadow-md">
+                <FaPhoneAlt /> Call +91 98765 43210
+              </a>
+            </div>
+          </div>
+
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-[#E8D5C8] h-80 lg:h-96">
+            <iframe 
+              title="Makeover by Divyas Google Maps Location Nagpur"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41709540026!2d79.00247653835698!3d21.1458004128509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              width="100%" 
+              height="100%" 
+              style={{ border: 0 }} 
+              allowFullScreen="" 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </section>
 
-      {/* 11. FAQ Preview Section */}
-      <section className="py-24 bg-[#FFFDFC]">
+      {/* FAQ Accordion Section */}
+      <section className="py-20 bg-[#FAF5F2] border-t border-[#E9DED7]">
         <div className="max-w-[1280px] w-[90%] mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
-              <FaSparkles /> Clarifications
+              <FaSparkles /> Search Intent FAQs
             </span>
-            <h2 className="font-cinzel text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-xs sm:text-sm text-[#1A1A1A] font-jakarta font-medium">
-              Answers to common queries regarding trial sessions, venue bookings, products, and packages.
+            <p className="text-sm text-[#555] font-sans">
+              Got questions about bridal makeup, pricing, airbrushing, or location travel? Find all answers below.
             </p>
           </div>
 
@@ -227,29 +346,29 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* 12. Bottom Booking Call to Action */}
+      {/* Bottom Booking Call to Action */}
       <section className="py-20 bg-gradient-to-r from-[#1A1A1A] via-[#2B2B2B] to-[#1A1A1A] text-white text-center border-t-2 border-[#D4AF37]/40 shadow-2xl relative overflow-hidden">
         <div className="max-w-3xl mx-auto px-6 relative z-10">
           <span className="text-xs uppercase tracking-[3px] text-[#D4AF37] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-3 bg-black/40 backdrop-blur-md px-4 py-1.5 rounded-full border border-[#D4AF37]/40">
-            <FaSparkles /> Secure Your Wedding Date
+            <FaSparkles /> Book Your Makeup Appointment
           </span>
-          <h2 className="font-cinzel text-3xl sm:text-5xl font-bold mb-4 text-white">
-            Ready to Look Ethereal on Your Big Day?
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold mb-4 text-white">
+            Book Your Makeup Appointment in Nagpur
           </h2>
           <p className="text-sm sm:text-base text-white/90 font-jakarta font-medium mb-8 max-w-xl mx-auto">
-            Book your consultation with Master Divya today. Peak wedding season dates fill up 3 to 6 months in advance.
+            Reserve your wedding dates with Nagpur's best bridal makeup artist. Dates fill up fast!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <LuxuryButton to="/book-appointment" variant="primary" size="lg">
               Book Appointment Concierge
             </LuxuryButton>
             <a
-              href="https://wa.me/919381824540"
+              href="https://wa.me/919876543210"
               target="_blank"
               rel="noreferrer"
-              className="px-8 py-4 rounded-full border-2 border-white/30 text-white font-jakarta font-semibold text-sm hover:bg-white/10 transition-all"
+              className="px-8 py-4 rounded-full border-2 border-white/30 text-white font-jakarta font-semibold text-sm hover:bg-white/10 transition-all flex items-center gap-2"
             >
-              Instant WhatsApp Inquiry
+              <FaWhatsapp className="text-lg text-emerald-400" /> Direct WhatsApp Inquiry
             </a>
           </div>
         </div>

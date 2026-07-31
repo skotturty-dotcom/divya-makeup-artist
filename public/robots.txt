@@ -1,0 +1,11 @@
+# Robots.txt for Makeover by Divyas
+User-agent: *
+Allow: /
+
+# Disallow administrative and temporary files
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?*
+
+# Sitemap Location
+Sitemap: https://www.makeoverbydivyas.in/sitemap.xml
