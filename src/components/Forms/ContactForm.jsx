@@ -65,12 +65,12 @@ export const ContactForm = () => {
             </label>
             <input
               type="email"
-              placeholder="divyakumarirockz@gmail.com"
+              placeholder="Enter your email address"
               {...register('email', { 
                 required: 'Email is required',
                 pattern: { value: /^\S+@\S+$/i, message: 'Invalid email address' }
               })}
-              className="w-full px-5 py-3.5 rounded-2xl bg-[#FAF5F2] border border-[#E9DED7] text-sm text-[#2B2B2B] font-poppins focus:outline-none focus:border-[#C78B74] focus:bg-white transition-all"
+              className="w-full px-5 py-3.5 rounded-2xl bg-[#FAF5F2] border border-[#E9DED7] text-sm text-[#2B2B2B] font-poppins focus:outline-none focus:border-[#C78B74] focus:bg-white transition-all placeholder:text-[#999999]"
             />
             {errors.email && <span className="text-xs text-red-500 mt-1 block">{errors.email.message}</span>}
           </div>
@@ -81,9 +81,9 @@ export const ContactForm = () => {
             </label>
             <input
               type="tel"
-              placeholder="+91 93818 24540"
+              placeholder="Enter your phone number"
               {...register('phone', { required: 'Phone is required' })}
-              className="w-full px-5 py-3.5 rounded-2xl bg-[#FAF5F2] border border-[#E9DED7] text-sm text-[#2B2B2B] font-poppins focus:outline-none focus:border-[#C78B74] focus:bg-white transition-all"
+              className="w-full px-5 py-3.5 rounded-2xl bg-[#FAF5F2] border border-[#E9DED7] text-sm text-[#2B2B2B] font-poppins focus:outline-none focus:border-[#C78B74] focus:bg-white transition-all placeholder:text-[#999999]"
             />
             {errors.phone && <span className="text-xs text-red-500 mt-1 block">{errors.phone.message}</span>}
           </div>

@@ -19,9 +19,13 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
     formState: { errors }
   } = useForm({
     defaultValues: {
-      service: preselectedService || preselectedPackage || preselectedCourse || "Signature Bridal Makeup",
-      date: new Date().toISOString().split('T')[0],
-      time: "Morning (06:00 AM - 11:00 AM)"
+      name: "",
+      phone: "",
+      email: "",
+      service: preselectedService || preselectedPackage || preselectedCourse || "",
+      date: "",
+      time: "",
+      notes: ""
     }
   });
 
@@ -67,9 +71,9 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
             </label>
             <input
               type="text"
-              placeholder="e.g. Ananya Sharma"
+              placeholder="Enter your full name"
               {...register('name', { required: 'Full name is required' })}
-              className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm"
+              className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm placeholder:text-[#999999] placeholder:font-normal"
             />
             {errors.name && <span className="text-xs text-red-500 mt-1 block font-medium">{errors.name.message}</span>}
           </div>
@@ -81,12 +85,12 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
             </label>
             <input
               type="tel"
-              placeholder="+91 93818 24540"
+              placeholder="Enter phone or WhatsApp number"
               {...register('phone', { 
                 required: 'Phone number is required',
                 pattern: { value: /^[0-9+\s-]{8,15}$/, message: 'Invalid phone number format' }
               })}
-              className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm"
+              className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm placeholder:text-[#999999] placeholder:font-normal"
             />
             {errors.phone && <span className="text-xs text-red-500 mt-1 block font-medium">{errors.phone.message}</span>}
           </div>
@@ -98,9 +102,9 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
             </label>
             <input
               type="email"
-              placeholder="divyakumarirockz@gmail.com"
+              placeholder="Enter your email address"
               {...register('email', { required: 'Email address is required' })}
-              className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm"
+              className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm placeholder:text-[#999999] placeholder:font-normal"
             />
             {errors.email && <span className="text-xs text-red-500 mt-1 block font-medium">{errors.email.message}</span>}
           </div>
@@ -114,6 +118,7 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
               {...register('service', { required: 'Please select a service' })}
               className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm cursor-pointer"
             >
+              <option value="">-- Select Service or Package --</option>
               <optgroup label="Bridal Packages">
                 {packagesData.map((pkg) => (
                   <option key={pkg.id} value={pkg.name}>{pkg.name}</option>
@@ -125,6 +130,7 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
                 ))}
               </optgroup>
             </select>
+            {errors.service && <span className="text-xs text-red-500 mt-1 block font-medium">{errors.service.message}</span>}
           </div>
 
           {/* Preferred Date */}
@@ -137,6 +143,7 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
               {...register('date', { required: 'Event date is required' })}
               className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm"
             />
+            {errors.date && <span className="text-xs text-red-500 mt-1 block font-medium">{errors.date.message}</span>}
           </div>
 
           {/* Preferred Time Slot */}
@@ -148,7 +155,8 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
               {...register('time')}
               className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-semibold focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all shadow-sm cursor-pointer"
             >
-              <option value="Morning (06:00 AM - 11:00 AM)">Early Morning (06:00 AM - 11:00 AM)</option>
+              <option value="">-- Select Preferred Time Slot --</option>
+              <option value="Early Morning (06:00 AM - 11:00 AM)">Early Morning (06:00 AM - 11:00 AM)</option>
               <option value="Afternoon (11:00 AM - 03:00 PM)">Afternoon (11:00 AM - 03:00 PM)</option>
               <option value="Evening (03:00 PM - 08:00 PM)">Evening (03:00 PM - 08:00 PM)</option>
             </select>
@@ -165,7 +173,7 @@ export const AppointmentForm = ({ preselectedService = "", preselectedPackage = 
             rows="3"
             placeholder="Tell us about your wedding venue, attire color, or specific skin sensitivities..."
             {...register('notes')}
-            className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-medium focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all resize-none shadow-sm"
+            className="w-full px-5 py-4 rounded-2xl bg-white border-2 border-[#E9DED7] text-sm text-[#1A1A1A] font-jakarta font-medium focus:outline-none focus:border-[#D4AF37] focus:ring-4 focus:ring-[#D4AF37]/15 transition-all resize-none shadow-sm placeholder:text-[#999999] placeholder:font-normal"
           />
         </div>
 
