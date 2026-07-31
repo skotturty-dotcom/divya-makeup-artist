@@ -5,6 +5,11 @@ import img7 from '../assets/media/img7.jpeg';
 import img8 from '../assets/media/img8.jpeg';
 import img9 from '../assets/media/img9.jpeg';
 import img10 from '../assets/media/img10.jpeg';
+import img13 from '../assets/media/img13.jpeg';
+import img16 from '../assets/media/img16.jpeg';
+import img17 from '../assets/media/img17.jpeg';
+import img20 from '../assets/media/img20.jpeg';
+import img21 from '../assets/media/img21.jpeg';
 
 import dm_img3 from '../assets/dm/dm_img3.jpeg';
 import dm_img4 from '../assets/dm/dm_img4.jpeg';
@@ -21,12 +26,6 @@ import dm_img18 from '../assets/dm/dm_img18.jpeg';
 import dm_img19 from '../assets/dm/dm_img19.jpeg';
 import dm_img20 from '../assets/dm/dm_img20.jpeg';
 import dm_img21 from '../assets/dm/dm_img21.jpeg';
-
-import insta3 from '../assets/insta_work/insta_img3.jpeg';
-import insta5 from '../assets/insta_work/insta_img5.jpeg';
-import insta8 from '../assets/insta_work/insta_img8.jpeg';
-import insta9 from '../assets/insta_work/insta_img9.jpeg';
-import insta12 from '../assets/insta_work/insta_img12.jpeg';
 
 import vid1 from '../assets/media/vid1.mp4';
 import vid2 from '../assets/media/vid2.mp4';
@@ -47,7 +46,7 @@ export const galleryCategories = [
 ];
 
 export const galleryItems = [
-  // --- AUTHENTIC BRIDAL MAKEOVERS ---
+  // --- AUTHENTIC 4K BRIDAL MAKEOVERS ---
   {
     id: 101,
     title: "Signature Royal South Indian Bride",
@@ -88,18 +87,18 @@ export const galleryItems = [
     id: 105,
     title: "Luxury Royal Bridal Airbrush Look",
     category: "Bridal",
-    image: insta5,
+    image: img16,
     client: "Divya Studio Bride",
     location: "Taj Palace",
     description: "Radiant dewy skin finish with soft smokey eye artistry and bridal veil placement."
   },
 
-  // --- RECEPTION GALLERY PORTRAITS ---
+  // --- AUTHENTIC 4K RECEPTION GALLERY PORTRAITS ---
   {
     id: 801,
     title: "Ethereal Pastel Reception Suite",
     category: "Reception",
-    image: insta3,
+    image: img13,
     client: "Divya Studio Bride",
     location: "The Leela Palace",
     description: "Soft peach monochromatic glam with champagne highlighter and glossy nude lip polish."
@@ -108,7 +107,7 @@ export const galleryItems = [
     id: 802,
     title: "Sangeet Dance-Ready Soft Glam",
     category: "Reception",
-    image: insta8,
+    image: img20,
     client: "Divya Studio Client",
     location: "Taj Krishna Ballroom",
     description: "Smudge-proof 18-hour HD foundation base designed to remain pristine through dance celebrations."
@@ -117,7 +116,7 @@ export const galleryItems = [
     id: 803,
     title: "Evening Glam & Cocktail Suite",
     category: "Reception",
-    image: insta9,
+    image: img21,
     client: "Divya Studio Client",
     location: "JW Marriott",
     description: "Luminous highlighter flush with delicate shimmer eyeshadow and romantic hair styling."
@@ -132,12 +131,12 @@ export const galleryItems = [
     description: "Winged eyeliner precision with bold classic red lip polish and sculpted contour."
   },
 
-  // --- OTHER SPECIALIZED SERVICES ---
+  // --- OTHER SPECIALIZED 4K SERVICES ---
   {
     id: 405,
     title: "Celebrity Party & Gala Makeover",
     category: "Party",
-    image: insta12,
+    image: img17,
     client: "Maid of Honor",
     location: "JW Marriott",
     description: "Camera-ready evening glam featuring bronzed contouring and 3D glitter eye accents."
@@ -220,7 +219,7 @@ export const galleryItems = [
     id: 703,
     title: "Reception Glass Skin Radiance",
     category: "Before After",
-    image: insta3,
+    image: img13,
     client: "Reception Bride",
     location: "The Leela Palace",
     description: "Luminous glass skin prep and champagne monochromatic glam."
@@ -262,7 +261,7 @@ export const galleryItems = [
     title: "Live Studio Glam Reveal",
     category: "Videos",
     video: vid3,
-    image: insta3,
+    image: img20,
     client: "Divya Studio Client",
     location: "Divya Studio",
     description: "Step-by-step skin preparation, airbrushing, and hair styling reel."
@@ -291,7 +290,7 @@ export const beforeAfterPairs = [
     title: "Sangeet Radiant Soft Glam",
     subtitle: "Glass Skin & Nude Polish",
     before: dm_img7,
-    after: insta3,
+    after: img13,
     notes: "Dewy skin texture transformation with long-lasting dance-proof setting spray."
   },
   {
@@ -299,7 +298,7 @@ export const beforeAfterPairs = [
     title: "Celebrity Evening Gala Transformation",
     subtitle: "3D Eye Artistry & Bronzed Glow",
     before: dm_img15,
-    after: insta12,
+    after: dm_img21,
     notes: "High-contrast evening lighting optimization and camera-ready airbrushing."
   }
 ];
