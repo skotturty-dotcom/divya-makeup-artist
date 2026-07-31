@@ -101,7 +101,7 @@ export const Hero = () => {
                 <FaSparkles />
               </div>
               <div>
-                <p className="font-cinzel text-xl font-bold text-white">8+ Yrs</p>
+                <p className="font-cinzel text-xl font-bold text-white">5+ Yrs</p>
                 <p className="text-[11px] text-white/70 font-jakarta">Mastery</p>
               </div>
             </div>

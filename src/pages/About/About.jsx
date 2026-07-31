@@ -78,7 +78,7 @@ export const About = () => {
               "Every Bride Deserves to Feel Like Royalty"
             </h2>
             <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-6">
-              With over 8 years of specialized experience in international bridal beauty, Divya has transformed over 1,000 brides for high-profile weddings, destination ceremonies, and celebrity events.
+              With over 5 years of specialized experience in international bridal beauty, Divya has transformed over 1,000 brides for high-profile weddings, destination ceremonies, and celebrity events.
             </p>
             <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed mb-6">
               Trained under renowned beauty masters in London and Mumbai, Divya's signature style revolves around weightless skin prep, luminous glass skin, and precision eye definition. She believes that makeup should enhance a woman’s natural feature rather than mask them.
@@ -244,8 +244,8 @@ export const About = () => {
 
               <div className="grid grid-cols-3 gap-4 pt-2 text-center font-poppins">
                 <div className="p-4 rounded-xl bg-white border border-[#E9DED7] shadow-sm">
-                  <span className="font-cormorant text-3xl font-bold text-[#C78B74] block">8+</span>
-                  <span className="text-[10px] text-[#666666] uppercase tracking-wider">Years Exp</span>
+                  <span className="font-cinzel text-3xl font-bold text-[#C78B74] block">5+</span>
+                  <span className="text-[10px] text-[#1A1A1A] font-jakarta font-semibold uppercase tracking-wider">Years Exp</span>
                 </div>
                 <div className="p-4 rounded-xl bg-white border border-[#E9DED7] shadow-sm">
                   <span className="font-cormorant text-3xl font-bold text-[#D4AF37] block">1000+</span>

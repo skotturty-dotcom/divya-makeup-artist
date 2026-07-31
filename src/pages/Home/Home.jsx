@@ -56,7 +56,7 @@ export const Home = () => {
 
             {/* Floating Experience Badge */}
             <div className="absolute -top-4 -right-2 sm:-right-4 bg-[#C78B74] text-white p-3.5 px-4 rounded-xl shadow-xl hidden sm:flex flex-col items-center justify-center border border-white/20">
-              <span className="font-cinzel text-2xl font-bold leading-none">8+</span>
+              <span className="font-cinzel text-2xl font-bold leading-none">5+</span>
               <span className="text-[9px] uppercase font-jakarta tracking-wider mt-0.5">Years Exp</span>
             </div>
           </motion.div>
