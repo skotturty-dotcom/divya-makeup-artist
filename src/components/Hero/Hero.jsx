@@ -91,7 +91,7 @@ export const Hero = () => {
                 <FaAward />
               </div>
               <div>
-                <p className="font-cinzel text-xl font-bold text-white">1000+</p>
+                <p className="font-cinzel text-xl font-bold text-white">500+</p>
                 <p className="text-[11px] text-white/70 font-jakarta">Happy Brides</p>
               </div>
             </div>

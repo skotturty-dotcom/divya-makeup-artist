@@ -61,7 +61,7 @@ export const whyChooseUsData = [
 ];
 
 export const statisticsData = [
-  { count: 1000, suffix: "+", label: "Happy Brides", icon: "👑" },
+  { count: 500, suffix: "+", label: "Happy Brides", icon: "👑" },
   { count: 5, suffix: "+", label: "Years Experience", icon: "✨" },
   { count: 500, suffix: "+", label: "Events Covered", icon: "💍" },
   { count: 4.9, suffix: "★", label: "Google Rating", icon: "⭐", decimal: true }
