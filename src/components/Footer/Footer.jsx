@@ -140,7 +140,6 @@ export const Footer = () => {
               <li><Link to="/services" className="hover:text-[#C78B74] transition-colors">Our Luxury Services</Link></li>
               <li><Link to="/bridal-packages" className="hover:text-[#C78B74] transition-colors">Bridal Packages & Suites</Link></li>
               <li><Link to="/gallery" className="hover:text-[#C78B74] transition-colors">Bridal Gallery & Lightbox</Link></li>
-              <li><Link to="/testimonials" className="hover:text-[#C78B74] transition-colors">Client Reviews & Stories</Link></li>
               <li><Link to="/blog" className="hover:text-[#C78B74] transition-colors">Beauty Blog & Tips</Link></li>
             </ul>
           </div>
