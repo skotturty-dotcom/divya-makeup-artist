@@ -134,9 +134,6 @@ export const Contact = () => {
                   <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="w-11 h-11 rounded-2xl bg-white/10 hover:bg-gradient-to-br hover:from-[#D4AF37] hover:to-[#C78B74] border border-white/20 flex items-center justify-center text-white transition-all shadow-md">
                     <FaFacebookF className="text-lg" />
                   </a>
-                  <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube" className="w-11 h-11 rounded-2xl bg-white/10 hover:bg-gradient-to-br hover:from-[#D4AF37] hover:to-[#C78B74] border border-white/20 flex items-center justify-center text-white transition-all shadow-md">
-                    <FaYoutube className="text-lg" />
-                  </a>
                   <a href="https://wa.me/919381824540" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-11 h-11 rounded-2xl bg-[#25D366]/20 hover:bg-[#25D366] border border-[#25D366]/40 flex items-center justify-center text-[#25D366] hover:text-white transition-all shadow-md">
                     <FaWhatsapp className="text-lg" />
                   </a>

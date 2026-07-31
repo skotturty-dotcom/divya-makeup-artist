@@ -112,20 +112,14 @@ export const Footer = () => {
             </p>
 
             <div className="flex items-center gap-3 pt-2">
-              <a href="https://www.instagram.com/beautify_with_divya" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
+              <a href="https://www.instagram.com/beautify_with_divya" target="_blank" rel="noreferrer" aria-label="Instagram" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
                 <FaInstagram />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
+              <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
                 <FaFacebookF />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
-                <FaYoutube />
-              </a>
-              <a href="https://wa.me/919381824540" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
+              <a href="https://wa.me/919381824540" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
                 <FaWhatsapp />
-              </a>
-              <a href="https://pinterest.com" target="_blank" rel="noreferrer" className="w-9 h-9 rounded-full bg-white/5 hover:bg-[#C78B74] border border-white/10 flex items-center justify-center text-white/80 hover:text-white transition-all duration-300">
-                <FaPinterestP />
               </a>
             </div>
           </div>
