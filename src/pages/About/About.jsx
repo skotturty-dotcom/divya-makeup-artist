@@ -140,33 +140,7 @@ export const About = () => {
         </div>
       </section>
 
-      {/* Experience Timeline */}
-      <section className="py-24 bg-[#FFFDFC]">
-        <div className="max-w-[1280px] w-[90%] mx-auto">
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-poppins font-semibold block mb-2">
-              Our Journey
-            </span>
-            <h2 className="font-cormorant text-4xl sm:text-5xl font-bold text-[#2B2B2B]">
-              Milestones & Achievements
-            </h2>
-          </div>
 
-          <div className="space-y-8 max-w-4xl mx-auto">
-            {achievements.map((item, idx) => (
-              <div key={idx} className="flex items-start gap-6 bg-white p-6 rounded-2xl border border-[#E9DED7] shadow-sm">
-                <div className="font-cormorant text-3xl font-bold text-[#C78B74] shrink-0 w-20">
-                  {item.year}
-                </div>
-                <div>
-                  <h4 className="font-cormorant text-2xl font-bold text-[#2B2B2B] mb-1">{item.title}</h4>
-                  <p className="text-xs text-[#666666] font-poppins">{item.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Studio Showcase */}
       <section className="py-24 bg-[#FAF5F2] border-y border-[#E9DED7]">
