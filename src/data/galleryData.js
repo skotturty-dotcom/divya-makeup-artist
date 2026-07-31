@@ -14,10 +14,6 @@ import dm_img7 from '../assets/dm/dm_img7.jpeg';
 import dm_img8 from '../assets/dm/dm_img8.jpeg';
 import dm_img9 from '../assets/dm/dm_img9.jpeg';
 import dm_img10 from '../assets/dm/dm_img10.jpeg';
-import dm_img11 from '../assets/dm/dm_img11.jpeg';
-import dm_img12 from '../assets/dm/dm_img12.jpeg';
-import dm_img13 from '../assets/dm/dm_img13.jpeg';
-import dm_img14 from '../assets/dm/dm_img14.jpeg';
 import dm_img15 from '../assets/dm/dm_img15.jpeg';
 import dm_img16 from '../assets/dm/dm_img16.jpeg';
 import dm_img17 from '../assets/dm/dm_img17.jpeg';
@@ -25,6 +21,12 @@ import dm_img18 from '../assets/dm/dm_img18.jpeg';
 import dm_img19 from '../assets/dm/dm_img19.jpeg';
 import dm_img20 from '../assets/dm/dm_img20.jpeg';
 import dm_img21 from '../assets/dm/dm_img21.jpeg';
+
+import insta3 from '../assets/insta_work/insta_img3.jpeg';
+import insta5 from '../assets/insta_work/insta_img5.jpeg';
+import insta8 from '../assets/insta_work/insta_img8.jpeg';
+import insta9 from '../assets/insta_work/insta_img9.jpeg';
+import insta12 from '../assets/insta_work/insta_img12.jpeg';
 
 import vid1 from '../assets/media/vid1.mp4';
 import vid2 from '../assets/media/vid2.mp4';
@@ -59,7 +61,7 @@ export const galleryItems = [
     id: 102,
     title: "North Indian Velvet Crimson Bridal Look",
     category: "Bridal",
-    image: dm_img11,
+    image: img2,
     client: "Divya Studio Bride",
     location: "Destination Wedding Palace",
     description: "Rich red velvet lehenga with royal double dupatta draping, custom mink lashes, and airbrush base."
@@ -86,7 +88,7 @@ export const galleryItems = [
     id: 105,
     title: "Luxury Royal Bridal Airbrush Look",
     category: "Bridal",
-    image: img2,
+    image: insta5,
     client: "Divya Studio Bride",
     location: "Taj Palace",
     description: "Radiant dewy skin finish with soft smokey eye artistry and bridal veil placement."
@@ -97,7 +99,7 @@ export const galleryItems = [
     id: 801,
     title: "Ethereal Pastel Reception Suite",
     category: "Reception",
-    image: dm_img12,
+    image: insta3,
     client: "Divya Studio Bride",
     location: "The Leela Palace",
     description: "Soft peach monochromatic glam with champagne highlighter and glossy nude lip polish."
@@ -106,7 +108,7 @@ export const galleryItems = [
     id: 802,
     title: "Sangeet Dance-Ready Soft Glam",
     category: "Reception",
-    image: dm_img13,
+    image: insta8,
     client: "Divya Studio Client",
     location: "Taj Krishna Ballroom",
     description: "Smudge-proof 18-hour HD foundation base designed to remain pristine through dance celebrations."
@@ -115,7 +117,7 @@ export const galleryItems = [
     id: 803,
     title: "Evening Glam & Cocktail Suite",
     category: "Reception",
-    image: dm_img14,
+    image: insta9,
     client: "Divya Studio Client",
     location: "JW Marriott",
     description: "Luminous highlighter flush with delicate shimmer eyeshadow and romantic hair styling."
@@ -135,7 +137,7 @@ export const galleryItems = [
     id: 405,
     title: "Celebrity Party & Gala Makeover",
     category: "Party",
-    image: dm_img14,
+    image: insta12,
     client: "Maid of Honor",
     location: "JW Marriott",
     description: "Camera-ready evening glam featuring bronzed contouring and 3D glitter eye accents."
@@ -209,7 +211,7 @@ export const galleryItems = [
     id: 702,
     title: "North Indian Velvet Lehenga Transformation",
     category: "Before After",
-    image: dm_img11,
+    image: img2,
     client: "Royal Bride",
     location: "Destination Wedding",
     description: "Sculpted contouring, double dupatta setting, and custom mink lashes."
@@ -218,7 +220,7 @@ export const galleryItems = [
     id: 703,
     title: "Reception Glass Skin Radiance",
     category: "Before After",
-    image: dm_img12,
+    image: insta3,
     client: "Reception Bride",
     location: "The Leela Palace",
     description: "Luminous glass skin prep and champagne monochromatic glam."
@@ -260,7 +262,7 @@ export const galleryItems = [
     title: "Live Studio Glam Reveal",
     category: "Videos",
     video: vid3,
-    image: dm_img12,
+    image: insta3,
     client: "Divya Studio Client",
     location: "Divya Studio",
     description: "Step-by-step skin preparation, airbrushing, and hair styling reel."
@@ -281,7 +283,7 @@ export const beforeAfterPairs = [
     title: "Royalty Reception Sculpting",
     subtitle: "Contour & Eye Artistry",
     before: dm_img20,
-    after: dm_img11,
+    after: img2,
     notes: "Enhanced cheekbone dimension, defined cut-crease eye makeup, and veil placement."
   },
   {
@@ -289,7 +291,7 @@ export const beforeAfterPairs = [
     title: "Sangeet Radiant Soft Glam",
     subtitle: "Glass Skin & Nude Polish",
     before: dm_img7,
-    after: dm_img12,
+    after: insta3,
     notes: "Dewy skin texture transformation with long-lasting dance-proof setting spray."
   },
   {
@@ -297,7 +299,7 @@ export const beforeAfterPairs = [
     title: "Celebrity Evening Gala Transformation",
     subtitle: "3D Eye Artistry & Bronzed Glow",
     before: dm_img15,
-    after: dm_img14,
+    after: insta12,
     notes: "High-contrast evening lighting optimization and camera-ready airbrushing."
   }
 ];

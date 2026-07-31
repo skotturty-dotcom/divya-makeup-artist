@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FaPlay, FaTimes } from 'react-icons/fa';
 import { HiSparkles as FaSparkles } from 'react-icons/hi2';
 import dm_vid1 from '../../assets/dm/dm_vid1.mp4';
-import dm_img11 from '../../assets/dm/dm_img11.jpeg';
+import img2 from '../../assets/media/img2.jpeg';
 
 export const VideoModalBanner = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -15,7 +15,7 @@ export const VideoModalBanner = () => {
         
         {/* Video Thumbnail Background Cover Photo */}
         <img
-          src={dm_img11}
+          src={img2}
           alt="Divya Royal Bridal Transformation Cover"
           className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-105"
         />

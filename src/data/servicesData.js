@@ -1,8 +1,8 @@
 import dm_img10 from '../assets/dm/dm_img10.jpeg';
-import dm_img11 from '../assets/dm/dm_img11.jpeg';
-import dm_img12 from '../assets/dm/dm_img12.jpeg';
-import dm_img13 from '../assets/dm/dm_img13.jpeg';
-import dm_img14 from '../assets/dm/dm_img14.jpeg';
+import img2 from '../assets/media/img2.jpeg';
+import insta3 from '../assets/insta_work/insta_img3.jpeg';
+import insta8 from '../assets/insta_work/insta_img8.jpeg';
+import insta9 from '../assets/insta_work/insta_img9.jpeg';
 import dm_img15 from '../assets/dm/dm_img15.jpeg';
 import dm_img16 from '../assets/dm/dm_img16.jpeg';
 import dm_img17 from '../assets/dm/dm_img17.jpeg';
@@ -41,7 +41,7 @@ export const servicesData = [
     duration: "3.5 Hours",
     popular: true,
     rating: 5.0,
-    image: dm_img11,
+    image: img2,
     benefits: [
       "Ultra HD non-transferable formula lasting 24 hours",
       "Ideal for sensitive & oily skin types prone to shine",
@@ -61,7 +61,7 @@ export const servicesData = [
     duration: "2.5 Hours",
     popular: false,
     rating: 4.9,
-    image: dm_img12,
+    image: insta3,
     benefits: [
       "High-contrast evening lighting optimization",
       "Dramatic 3D shimmer or soft smokey eye artistry",
@@ -77,7 +77,7 @@ export const servicesData = [
     duration: "2 Hours",
     popular: false,
     rating: 4.9,
-    image: dm_img13,
+    image: insta8,
     benefits: [
       "Dewy glass-skin finish with soft pastel palettes",
       "Custom braid, bun, or Hollywood waves hair styling",
@@ -93,7 +93,7 @@ export const servicesData = [
     duration: "1.5 Hours",
     popular: false,
     rating: 4.8,
-    image: dm_img14,
+    image: insta9,
     benefits: [
       "Custom eye look matching outfit & theme",
       "Professional hair blowout or soft curls",
