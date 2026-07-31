@@ -9,6 +9,11 @@ import dm_img17 from '../assets/dm/dm_img17.jpeg';
 import dm_img18 from '../assets/dm/dm_img18.jpeg';
 import dm_img19 from '../assets/dm/dm_img19.jpeg';
 
+import svc_img1 from '../assets/services_media/svc_img1.jpeg';
+import svc_img2 from '../assets/services_media/svc_img2.jpeg';
+import svc_img3 from '../assets/services_media/svc_img3.jpeg';
+import svc_img4 from '../assets/services_media/svc_img4.jpeg';
+
 export const servicesData = [
   {
     id: "bridal-makeup",
@@ -61,7 +66,7 @@ export const servicesData = [
     duration: "2.5 Hours",
     popular: false,
     rating: 4.9,
-    image: img13,
+    image: svc_img4,
     benefits: [
       "High-contrast evening lighting optimization",
       "Dramatic 3D shimmer or soft smokey eye artistry",
@@ -77,7 +82,7 @@ export const servicesData = [
     duration: "2 Hours",
     popular: false,
     rating: 4.9,
-    image: img20,
+    image: svc_img1,
     benefits: [
       "Dewy glass-skin finish with soft pastel palettes",
       "Custom braid, bun, or Hollywood waves hair styling",
@@ -93,7 +98,7 @@ export const servicesData = [
     duration: "1.5 Hours",
     popular: false,
     rating: 4.8,
-    image: dm_img21,
+    image: svc_img2,
     benefits: [
       "Custom eye look matching outfit & theme",
       "Professional hair blowout or soft curls",
@@ -173,7 +178,7 @@ export const servicesData = [
     duration: "45 Mins",
     popular: false,
     rating: 4.9,
-    image: dm_img19,
+    image: svc_img3,
     benefits: [
       "Custom pleating & pin concealed locking",
       "Dupatta volume styling for 360-degree photography",

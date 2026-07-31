@@ -31,6 +31,11 @@ import dm_img21 from '../assets/dm/dm_img21.jpeg';
 
 import insta1 from '../assets/insta_work/insta_img1.jpeg';
 
+import svc_img1 from '../assets/services_media/svc_img1.jpeg';
+import svc_img2 from '../assets/services_media/svc_img2.jpeg';
+import svc_img3 from '../assets/services_media/svc_img3.jpeg';
+import svc_img4 from '../assets/services_media/svc_img4.jpeg';
+
 import vid1 from '../assets/media/vid1.mp4';
 import vid2 from '../assets/media/vid2.mp4';
 import vid3 from '../assets/media/vid3.mp4';
@@ -96,13 +101,22 @@ export const galleryItems = [
     location: "Taj Palace",
     description: "Radiant dewy skin finish with soft smokey eye artistry and bridal veil placement."
   },
+  {
+    id: 106,
+    title: "Bespoke Royal Bride Transformation",
+    category: "Bridal",
+    image: svc_img1,
+    client: "Divya Studio Bride",
+    location: "Grand Convention Center",
+    description: "Flawless camera-ready airbrush bridal transformation crafted for maximum elegance."
+  },
 
   // --- AUTHENTIC 4K RECEPTION GALLERY PORTRAITS ---
   {
     id: 801,
     title: "Ethereal Pastel Reception Suite",
     category: "Reception",
-    image: img13,
+    image: svc_img4,
     client: "Divya Studio Bride",
     location: "The Leela Palace",
     description: "Soft peach monochromatic glam with champagne highlighter and glossy nude lip polish."
@@ -191,12 +205,12 @@ export const galleryItems = [
     description: "Neat low bun wrapped with double jasmine veni rings and gold hair clip pin setting."
   },
 
-  // --- OTHER SPECIALIZED 4K SERVICES ---
+  // --- OTHER SPECIALIZED SERVICES ---
   {
     id: 405,
     title: "Celebrity Party & Gala Makeover",
     category: "Party",
-    image: img17,
+    image: svc_img2,
     client: "Maid of Honor",
     location: "JW Marriott",
     description: "Camera-ready evening glam featuring bronzed contouring and 3D glitter eye accents."
@@ -229,6 +243,15 @@ export const galleryItems = [
     description: "Pure organic henna hand-crafted with intricate portrait motifs and rich stain intensity."
   },
   {
+    id: 410,
+    title: "Royal Silk Saree & Dupatta Pleating",
+    category: "Party",
+    image: svc_img3,
+    client: "Saree Draping Client",
+    location: "Divya Studio",
+    description: "Precision pinless saree draping and double dupatta pleating for weddings and receptions."
+  },
+  {
     id: 411,
     title: "Masterclass Student Training Session",
     category: "Skin",
@@ -236,15 +259,6 @@ export const galleryItems = [
     client: "Divya Academy Students",
     location: "Divya Beauty Academy",
     description: "Hands-on student training on live models guided by Master Divya."
-  },
-  {
-    id: 901,
-    title: "Festive Ceremony Family Glam",
-    category: "Party",
-    image: dm_img7,
-    client: "Divya Studio Client",
-    location: "Hyderabad Event Hall",
-    description: "Vibrant traditional makeover with ornate jewelry, fresh hair veni, and dewy HD skin finish."
   },
 
   // --- BEFORE AFTER CATEGORY ITEMS ---
@@ -270,7 +284,7 @@ export const galleryItems = [
     id: 703,
     title: "Reception Glass Skin Radiance",
     category: "Before After",
-    image: img13,
+    image: svc_img4,
     client: "Reception Bride",
     location: "The Leela Palace",
     description: "Luminous glass skin prep and champagne monochromatic glam."
@@ -341,7 +355,7 @@ export const beforeAfterPairs = [
     title: "Sangeet Radiant Soft Glam",
     subtitle: "Glass Skin & Nude Polish",
     before: dm_img7,
-    after: img13,
+    after: svc_img4,
     notes: "Dewy skin texture transformation with long-lasting dance-proof setting spray."
   },
   {
