@@ -24,13 +24,13 @@ export const Contact = () => {
           <Breadcrumb items={[{ label: 'Contact Us' }]} />
           
           <div className="max-w-3xl mt-4">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-poppins font-semibold inline-flex items-center gap-1.5 mb-3">
-              <FaSparkles /> Concierge & Inquiries
+            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-3 bg-white px-4 py-1.5 rounded-full border border-[#E9DED7]">
+              <FaSparkles className="text-[#D4AF37]" /> Concierge & Inquiries
             </span>
-            <h1 className="font-cormorant text-4xl sm:text-6xl font-bold text-[#2B2B2B] mb-4">
+            <h1 className="font-cinzel text-4xl sm:text-6xl font-bold text-[#1A1A1A] mb-4 leading-tight">
               Get in Touch with Divya Studio
             </h1>
-            <p className="text-sm sm:text-base text-[#1A1A1A] font-medium leading-relaxed">
+            <p className="text-sm sm:text-base text-[#1A1A1A] font-jakarta font-medium leading-relaxed">
               We would love to discuss your upcoming bridal dates, customized package options, venue travel, or academy enrollment.
             </p>
           </div>
@@ -39,89 +39,110 @@ export const Contact = () => {
 
       {/* Main Grid: Contact Info & Form */}
       <section className="py-24 bg-[#FFFDFC]">
-        <div className="max-w-[1280px] w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div className="max-w-[1280px] w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           
-          {/* Info Side */}
-          <div className="lg:col-span-5 space-y-8">
+          {/* Info Side - Luxury Dark Card */}
+          <div className="lg:col-span-5">
             
-            <div className="bg-[#FAF5F2] p-8 md:p-10 rounded-[32px] border border-[#E9DED7] shadow-luxury space-y-8">
-              <h3 className="font-cormorant text-3xl font-bold text-[#2B2B2B] pb-4 border-b border-[#E9DED7]">
-                Studio Contact Details
-              </h3>
+            <div className="bg-gradient-to-br from-[#1A1A1A] via-[#2B2B2B] to-[#1A1A1A] text-white p-8 md:p-10 rounded-[32px] border-2 border-[#D4AF37]/40 shadow-2xl space-y-8 relative overflow-hidden">
+              
+              {/* Gold Top Accent */}
+              <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-[#D4AF37] via-[#C78B74] to-[#D4AF37]" />
 
-              <div className="space-y-6 font-poppins text-sm text-[#2B2B2B]">
+              <div className="pb-4 border-b border-white/15">
+                <span className="text-xs uppercase tracking-[3px] text-[#D4AF37] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
+                  <FaSparkles /> Luxury Studio
+                </span>
+                <h3 className="font-cinzel text-3xl font-bold text-white">
+                  Studio Contact Details
+                </h3>
+              </div>
+
+              <div className="space-y-6 font-jakarta text-sm text-white">
+                
+                {/* Studio Address */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-white border border-[#E9DED7] text-[#C78B74] flex items-center justify-center text-xl shrink-0 shadow-sm">
+                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#D4AF37] to-[#C78B74] text-white flex items-center justify-center text-xl shrink-0 shadow-lg">
                     <FaMapMarkerAlt />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-base mb-1 font-cormorant text-[#2B2B2B]">Studio Address</h4>
-                    <p className="text-xs text-[#666666] leading-relaxed">
+                    <h4 className="font-cinzel text-lg font-bold text-[#D4AF37] mb-1">Studio Address</h4>
+                    <p className="text-sm text-white/90 font-medium leading-relaxed">
                       Nizampet, Hyderabad, Telangana, India
                     </p>
                   </div>
                 </div>
 
+                {/* Phone & WhatsApp */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-white border border-[#E9DED7] text-[#C78B74] flex items-center justify-center text-xl shrink-0 shadow-sm">
+                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#D4AF37] to-[#C78B74] text-white flex items-center justify-center text-xl shrink-0 shadow-lg">
                     <FaPhoneAlt />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-base mb-1 font-cormorant text-[#2B2B2B]">Phone & WhatsApp</h4>
-                    <a href="tel:+919381824540" className="text-xs text-[#666666] hover:text-[#C78B74] block">+91 93818 24540</a>
-                    <a href="https://wa.me/919381824540" target="_blank" rel="noreferrer" className="text-xs text-[#25D366] font-semibold flex items-center gap-1 mt-1">
-                      <FaWhatsapp /> Chat on WhatsApp
+                    <h4 className="font-cinzel text-lg font-bold text-[#D4AF37] mb-1">Phone & WhatsApp</h4>
+                    <a href="tel:+919381824540" className="text-sm text-white/90 font-medium hover:text-[#D4AF37] block transition-colors">+91 93818 24540</a>
+                    <a 
+                      href="https://wa.me/919381824540" 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      className="inline-flex items-center gap-2 text-xs font-semibold text-[#25D366] bg-[#25D366]/15 hover:bg-[#25D366]/25 border border-[#25D366]/40 px-3 py-1.5 rounded-full mt-2 transition-all"
+                    >
+                      <FaWhatsapp className="text-sm" /> Chat on WhatsApp
                     </a>
                   </div>
                 </div>
 
+                {/* Email Address */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-white border border-[#E9DED7] text-[#C78B74] flex items-center justify-center text-xl shrink-0 shadow-sm">
+                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#D4AF37] to-[#C78B74] text-white flex items-center justify-center text-xl shrink-0 shadow-lg">
                     <FaEnvelope />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-base mb-1 font-cormorant text-[#2B2B2B]">Email Address</h4>
-                    <a href="mailto:divyakumarirockz@gmail.com" className="text-xs text-[#666666] hover:text-[#C78B74]">divyakumarirockz@gmail.com</a>
+                    <h4 className="font-cinzel text-lg font-bold text-[#D4AF37] mb-1">Email Address</h4>
+                    <a href="mailto:divyakumarirockz@gmail.com" className="text-sm text-white/90 font-medium hover:text-[#D4AF37] transition-colors break-all">divyakumarirockz@gmail.com</a>
                   </div>
                 </div>
 
+                {/* Studio Business Hours */}
                 <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-2xl bg-white border border-[#E9DED7] text-[#D4AF37] flex items-center justify-center text-xl shrink-0 shadow-sm">
+                  <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#D4AF37] to-[#C78B74] text-white flex items-center justify-center text-xl shrink-0 shadow-lg">
                     <FaClock />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-base mb-1 font-cormorant text-[#2B2B2B]">Studio Business Hours</h4>
-                    <p className="text-xs text-[#666666]">Monday - Sunday: 09:00 AM - 08:00 PM</p>
-                    <p className="text-[11px] text-[#C78B74] mt-0.5">* Early morning bridal callouts available by appointment</p>
+                    <h4 className="font-cinzel text-lg font-bold text-[#D4AF37] mb-1">Studio Business Hours</h4>
+                    <p className="text-sm text-white/90 font-medium">Monday - Sunday: 09:00 AM - 08:00 PM</p>
+                    <p className="text-xs text-[#D4AF37] mt-1 italic font-light">* Early morning bridal callouts available by appointment</p>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-6 border-t border-[#E9DED7]">
-                <p className="text-xs uppercase tracking-wider font-semibold text-[#2B2B2B] mb-2 font-poppins">Connect on Social</p>
+              {/* Social Media Links */}
+              <div className="pt-6 border-t border-white/15">
+                <p className="text-xs uppercase tracking-[2px] font-bold text-[#D4AF37] mb-3 font-jakarta">Connect on Social</p>
                 <a 
                   href="https://www.instagram.com/beautify_with_divya" 
                   target="_blank" 
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#C78B74] hover:text-[#D4AF37] mb-4 font-poppins transition-colors"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-white hover:text-[#D4AF37] mb-4 font-jakarta transition-colors"
                 >
-                  <FaInstagram className="text-lg" /> @beautify_with_divya
+                  <FaInstagram className="text-lg text-[#D4AF37]" /> @beautify_with_divya
                 </a>
-                <div className="flex gap-3">
-                  <a href="https://www.instagram.com/beautify_with_divya" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white border border-[#E9DED7] flex items-center justify-center text-[#C78B74] hover:bg-[#C78B74] hover:text-white transition-all">
-                    <FaInstagram />
+                <div className="flex gap-3 pt-1">
+                  <a href="https://www.instagram.com/beautify_with_divya" target="_blank" rel="noreferrer" aria-label="Instagram" className="w-11 h-11 rounded-2xl bg-white/10 hover:bg-gradient-to-br hover:from-[#D4AF37] hover:to-[#C78B74] border border-white/20 flex items-center justify-center text-white transition-all shadow-md">
+                    <FaInstagram className="text-lg" />
                   </a>
-                  <a href="https://facebook.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white border border-[#E9DED7] flex items-center justify-center text-[#C78B74] hover:bg-[#C78B74] hover:text-white transition-all">
-                    <FaFacebookF />
+                  <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="w-11 h-11 rounded-2xl bg-white/10 hover:bg-gradient-to-br hover:from-[#D4AF37] hover:to-[#C78B74] border border-white/20 flex items-center justify-center text-white transition-all shadow-md">
+                    <FaFacebookF className="text-lg" />
                   </a>
-                  <a href="https://youtube.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white border border-[#E9DED7] flex items-center justify-center text-[#C78B74] hover:bg-[#C78B74] hover:text-white transition-all">
-                    <FaYoutube />
+                  <a href="https://youtube.com" target="_blank" rel="noreferrer" aria-label="YouTube" className="w-11 h-11 rounded-2xl bg-white/10 hover:bg-gradient-to-br hover:from-[#D4AF37] hover:to-[#C78B74] border border-white/20 flex items-center justify-center text-white transition-all shadow-md">
+                    <FaYoutube className="text-lg" />
                   </a>
-                  <a href="https://wa.me/919381824540" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white border border-[#E9DED7] flex items-center justify-center text-[#25D366] hover:bg-[#25D366] hover:text-white transition-all">
-                    <FaWhatsapp />
+                  <a href="https://wa.me/919381824540" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-11 h-11 rounded-2xl bg-[#25D366]/20 hover:bg-[#25D366] border border-[#25D366]/40 flex items-center justify-center text-[#25D366] hover:text-white transition-all shadow-md">
+                    <FaWhatsapp className="text-lg" />
                   </a>
                 </div>
               </div>
+
             </div>
 
           </div>
@@ -135,14 +156,14 @@ export const Contact = () => {
       </section>
 
       {/* Google Maps Embed Section */}
-      <section className="py-12 bg-[#FAF5F2] border-t border-[#E9DED7]">
+      <section className="py-16 bg-[#FAF5F2] border-t border-[#E9DED7]">
         <div className="max-w-[1280px] w-[90%] mx-auto">
           <div className="text-center max-w-xl mx-auto mb-8">
-            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-poppins font-semibold block mb-1">Visit Studio</span>
-            <h3 className="font-cormorant text-3xl font-bold text-[#2B2B2B]">Studio Map & Location</h3>
+            <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold block mb-1">Visit Studio</span>
+            <h3 className="font-cinzel text-3xl md:text-4xl font-bold text-[#1A1A1A]">Studio Map & Location</h3>
           </div>
 
-          <div className="rounded-[32px] overflow-hidden border border-[#E9DED7] shadow-2xl h-[420px] bg-[#E9DED7]">
+          <div className="rounded-[32px] overflow-hidden border-2 border-[#D4AF37]/30 shadow-2xl h-[420px] bg-[#E9DED7]">
             <iframe
               title="Divya Makeup Artist Studio Google Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.497746592237!2d78.406983075165!3d17.435889783458694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9135a5a1f64f%3A0x6b8f3a3c9b7b9b1a!2sJubilee%20Hills%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
