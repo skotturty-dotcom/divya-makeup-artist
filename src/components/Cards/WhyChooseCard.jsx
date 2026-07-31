@@ -18,7 +18,7 @@ export const WhyChooseCard = ({ item, index }) => {
       <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#D4AF37] via-[#C78B74] to-[#D4AF37]" />
 
       {/* Background Watermark Number */}
-      <span className="absolute top-4 right-5 font-cinzel text-3xl font-extrabold text-[#D4AF37]/15 group-hover:text-[#D4AF37]/30 transition-colors pointer-events-none">
+      <span className="absolute top-4 right-5 font-cinzel text-3xl font-extrabold text-[#222222]/30 group-hover:text-[#111111]/50 transition-colors pointer-events-none">
         {numFormatted}
       </span>
 
