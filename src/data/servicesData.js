@@ -1,8 +1,8 @@
 import dm_img10 from '../assets/dm/dm_img10.jpeg';
 import img2 from '../assets/media/img2.jpeg';
-import insta3 from '../assets/insta_work/insta_img3.jpeg';
-import insta8 from '../assets/insta_work/insta_img8.jpeg';
-import insta9 from '../assets/insta_work/insta_img9.jpeg';
+import img13 from '../assets/media/img13.jpeg';
+import img20 from '../assets/media/img20.jpeg';
+import dm_img21 from '../assets/dm/dm_img21.jpeg';
 import dm_img15 from '../assets/dm/dm_img15.jpeg';
 import dm_img16 from '../assets/dm/dm_img16.jpeg';
 import dm_img17 from '../assets/dm/dm_img17.jpeg';
@@ -61,7 +61,7 @@ export const servicesData = [
     duration: "2.5 Hours",
     popular: false,
     rating: 4.9,
-    image: insta3,
+    image: img13,
     benefits: [
       "High-contrast evening lighting optimization",
       "Dramatic 3D shimmer or soft smokey eye artistry",
@@ -77,7 +77,7 @@ export const servicesData = [
     duration: "2 Hours",
     popular: false,
     rating: 4.9,
-    image: insta8,
+    image: img20,
     benefits: [
       "Dewy glass-skin finish with soft pastel palettes",
       "Custom braid, bun, or Hollywood waves hair styling",
@@ -93,7 +93,7 @@ export const servicesData = [
     duration: "1.5 Hours",
     popular: false,
     rating: 4.8,
-    image: insta9,
+    image: dm_img21,
     benefits: [
       "Custom eye look matching outfit & theme",
       "Professional hair blowout or soft curls",
