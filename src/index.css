@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --font-serif: "Outfit", "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Outfit", sans-serif;
+  --font-cinzel: "Outfit", "Plus Jakarta Sans", sans-serif;
+  --font-playfair: "Outfit", "Plus Jakarta Sans", sans-serif;
+  --font-bodoni: "Outfit", "Plus Jakarta Sans", sans-serif;
+}
+
 @layer base {
   :root {
     --color-primary: #C78B74;
@@ -15,7 +23,7 @@
   }
 
   body {
-    font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
     color: #111111;
     background-color: var(--color-bg-main);
   }
@@ -24,24 +32,20 @@
     color: #111111;
   }
 
-  h1, h2, h3, .font-cinzel {
-    font-family: 'Cinzel', 'Cormorant Garamond', serif;
+  h1, h2, h3, h4, .font-serif, .font-bodoni, .font-cinzel, .font-playfair, .font-outfit {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif !important;
   }
 
   .font-cormorant {
-    font-family: 'Cormorant Garamond', serif;
-  }
-
-  .font-playfair {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
   }
 
   .font-jakarta {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
   }
 
   .font-poppins {
-    font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
   }
 }
 
@@ -156,7 +160,7 @@
 
 /* Gold Gradient Text */
 .gold-gradient-text {
-  background: linear-gradient(135deg, #D4AF37 0%, #C78B74 50%, #B7745F 100%);
+  background: linear-gradient(135deg, #FFF3D1 0%, #F5D77F 35%, #D4AF37 70%, #E8B896 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

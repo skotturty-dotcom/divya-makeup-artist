@@ -4,6 +4,7 @@ import svc_img1 from '../assets/services_media/svc_img1.jpeg';
 import svc_img2 from '../assets/services_media/svc_img2.jpeg';
 import svc_img3 from '../assets/services_media/svc_img3.jpeg';
 import svc_img4 from '../assets/services_media/svc_img4.jpeg';
+import sareeDrapingImg from '../assets/services_media/saree_draping.jpg';
 import dm_img15 from '../assets/dm/dm_img15.jpeg';
 import dm_img16 from '../assets/dm/dm_img16.jpeg';
 import dm_img18 from '../assets/dm/dm_img18.jpeg';
@@ -267,21 +268,22 @@ Divya and her expert team combine artistic mastery with high-definition techniqu
     metaDescription: "Professional saree draping service in Nizampet, Hyderabad. Classic South Indian Kanjivaram pleating, Nauvari, Gujarati, & double dupatta setting.",
     h1: "Professional Saree & Lehenga Draping Services in Nizampet, Hyderabad",
     subtitle: "Precision Pleating, Comfort Locking & Elegant Silhouette Styling",
-    image: svc_img3,
-    altText: "Bridal saree draping service in Nizampet Hyderabad by Divya",
+    image: sareeDrapingImg,
+    altText: "Pre-pleated saree box folding & draping service in Nizampet Hyderabad by Divya",
     rating: "4.9 (140+ Reviews)",
     category: "Draping Services",
-    heroTags: ["Kanjivaram Pleating", "Poola Jada Matching", "Double Dupatta Setting"],
+    heroTags: ["Pre-Pleating & Box Folding", "Kanjivaram Pleating", "Poola Jada Matching", "Double Dupatta Setting"],
 
-    overview: `A flawlessly draped saree or lehenga elevates your entire bridal presence. At Makeover by Divyas in Nizampet, Hyderabad, we offer professional saree draping services that guarantee sleek pleating, zero pin discomfort, and absolute movement freedom throughout long wedding rituals.`,
+    overview: `A flawlessly draped saree or lehenga elevates your entire bridal presence. At Makeover by Divyas in Nizampet, Hyderabad, we offer professional saree draping and pre-pleating services that guarantee sleek pleating, zero pin discomfort, pre-pleated box packing ready for travel/quick wear, and absolute movement freedom throughout long wedding rituals.`,
 
     sections: [
       {
         h2: "Saree & Lehenga Draping Styles We Offer",
-        content: `1. **Traditional South Indian Kanjivaram Draping**: Neat chest pleats, tight hip accentuation, and waist keyhole pin locking.
-2. **Pelli Kuthuru Ceremony Draping**: Authentic Telugu traditional saree draping.
-3. **Double Dupatta Bridal Setting**: Secure head canopy positioning paired with shoulder drape alignment.
-4. **Indo-Western & Mermaid Drapes**: Flared Can-Can petticoat styling for contemporary gowns and pre-stitched sarees.`
+        content: `1. **Saree Pre-Pleating & Box Folding**: Get your Kanjeevaram, Pattu, or silk sarees pre-pleated, ironed, and neatly box-folded in protective covers so you can drape in just 2 minutes on your big day!
+2. **Traditional South Indian Kanjivaram Draping**: Neat chest pleats, tight hip accentuation, and waist keyhole pin locking.
+3. **Pelli Kuthuru Ceremony Draping**: Authentic Telugu traditional saree draping.
+4. **Double Dupatta Bridal Setting**: Secure head canopy positioning paired with shoulder drape alignment.
+5. **Indo-Western & Mermaid Drapes**: Flared Can-Can petticoat styling for contemporary gowns and pre-stitched sarees.`
       }
     ],
 

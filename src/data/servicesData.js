@@ -13,6 +13,7 @@ import svc_img1 from '../assets/services_media/svc_img1.jpeg';
 import svc_img2 from '../assets/services_media/svc_img2.jpeg';
 import svc_img3 from '../assets/services_media/svc_img3.jpeg';
 import svc_img4 from '../assets/services_media/svc_img4.jpeg';
+import sareeDrapingImg from '../assets/services_media/saree_draping.jpg';
 
 export const servicesData = [
   {
@@ -178,8 +179,9 @@ export const servicesData = [
     duration: "45 Mins",
     popular: false,
     rating: 4.9,
-    image: svc_img3,
+    image: sareeDrapingImg,
     benefits: [
+      "Pre-pleating & protective box folding",
       "Custom pleating & pin concealed locking",
       "Dupatta volume styling for 360-degree photography",
       "Comfortable movement support for long ceremonies"

@@ -165,49 +165,49 @@ export const Home = () => {
             <span className="text-xs uppercase tracking-[3px] text-[#C78B74] font-jakarta font-semibold inline-flex items-center gap-1.5 mb-2">
               <FaSparkles /> What We Offer
             </span>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-[#2B2B2B] mb-4">
+            <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#1A1A1A] mb-4">
               Professional Bridal Makeup Services in Nizampet
             </h2>
-            <p className="text-sm text-[#555] font-sans">
+            <p className="text-sm md:text-base text-[#555] font-sans">
               From HD bridal bases to 4K airbrushing, reception glam, saree pleating, and Poola Jada hairstyling in Hyderabad.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">HD & Airbrush Bridal Makeup</h3>
+            <div className="bg-white p-6 md:p-7 rounded-2xl border border-[#E8D5C8] shadow-xs hover:shadow-md transition-all">
+              <h3 className="text-xl font-outfit font-bold tracking-tight text-[#1A1A1A] mb-2">HD & Airbrush Bridal Makeup</h3>
               <p className="text-sm text-[#666] mb-4 leading-relaxed">Poreless 24-hour waterproof base tailored for high-definition photography and Hyderabad climate.</p>
-              <Link to="/bridal-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+              <Link to="/bridal-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1 hover:gap-2 transition-all">Learn More <FaArrowRight /></Link>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Reception Makeup</h3>
+            <div className="bg-white p-6 md:p-7 rounded-2xl border border-[#E8D5C8] shadow-xs hover:shadow-md transition-all">
+              <h3 className="text-xl font-outfit font-bold tracking-tight text-[#1A1A1A] mb-2">Reception Makeup</h3>
               <p className="text-sm text-[#666] mb-4 leading-relaxed">High-glam evening reception looks with dramatic smokey eyes, rose gold cut-crease & collarbone glow.</p>
-              <Link to="/reception-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+              <Link to="/reception-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1 hover:gap-2 transition-all">Learn More <FaArrowRight /></Link>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Engagement & Pelli Kuthuru Makeup</h3>
+            <div className="bg-white p-6 md:p-7 rounded-2xl border border-[#E8D5C8] shadow-xs hover:shadow-md transition-all">
+              <h3 className="text-xl font-outfit font-bold tracking-tight text-[#1A1A1A] mb-2">Engagement & Pelli Kuthuru Makeup</h3>
               <p className="text-sm text-[#666] mb-4 leading-relaxed">Chic, romantic soft glam featuring dewy glass skin, pastel tones, and dance-proof long hold.</p>
-              <Link to="/engagement-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+              <Link to="/engagement-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1 hover:gap-2 transition-all">Learn More <FaArrowRight /></Link>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Party Makeup</h3>
+            <div className="bg-white p-6 md:p-7 rounded-2xl border border-[#E8D5C8] shadow-xs hover:shadow-md transition-all">
+              <h3 className="text-xl font-outfit font-bold tracking-tight text-[#1A1A1A] mb-2">Party Makeup</h3>
               <p className="text-sm text-[#666] mb-4 leading-relaxed">Sophisticated makeover for bridesmaids, cocktail galas, and special event attendees in Nizampet.</p>
-              <Link to="/party-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+              <Link to="/party-makeup" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1 hover:gap-2 transition-all">Learn More <FaArrowRight /></Link>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Saree Draping Services</h3>
+            <div className="bg-white p-6 md:p-7 rounded-2xl border border-[#E8D5C8] shadow-xs hover:shadow-md transition-all">
+              <h3 className="text-xl font-outfit font-bold tracking-tight text-[#1A1A1A] mb-2">Saree Draping Services</h3>
               <p className="text-sm text-[#666] mb-4 leading-relaxed">Precision pleating for Kanjivaram silk, Gujarati style, and double-dupatta canopy setting.</p>
-              <Link to="/saree-draping" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+              <Link to="/saree-draping" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1 hover:gap-2 transition-all">Learn More <FaArrowRight /></Link>
             </div>
 
-            <div className="bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-xs">
-              <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Bridal Hair Styling & Poola Jada</h3>
+            <div className="bg-white p-6 md:p-7 rounded-2xl border border-[#E8D5C8] shadow-xs hover:shadow-md transition-all">
+              <h3 className="text-xl font-outfit font-bold tracking-tight text-[#1A1A1A] mb-2">Bridal Hair Styling & Poola Jada</h3>
               <p className="text-sm text-[#666] mb-4 leading-relaxed">Intricate Poola Jada floral braids, Hollywood retro waves, updos, and hair extension integration.</p>
-              <Link to="/bridal-hairstyle" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1">Learn More <FaArrowRight /></Link>
+              <Link to="/bridal-hairstyle" className="text-xs font-bold text-[#C78B74] inline-flex items-center gap-1 hover:gap-2 transition-all">Learn More <FaArrowRight /></Link>
             </div>
           </div>
         </div>

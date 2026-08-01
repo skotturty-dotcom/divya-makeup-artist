@@ -31,7 +31,7 @@ export const FAQAccordion = ({ faqs = [] }) => {
             >
               <div className="flex items-center gap-4 md:gap-5">
                 {/* Number Badge */}
-                <span className={`w-10 h-10 md:w-11 md:h-11 rounded-2xl flex items-center justify-center font-cinzel font-bold text-sm md:text-base shrink-0 transition-all duration-300 ${
+                <span className={`w-10 h-10 md:w-11 md:h-11 rounded-2xl flex items-center justify-center font-outfit font-bold text-sm md:text-base shrink-0 transition-all duration-300 ${
                   isOpen 
                     ? 'bg-gradient-to-br from-[#D4AF37] to-[#C78B74] text-white shadow-md' 
                     : 'bg-[#FAF5F2] text-[#C78B74] group-hover:bg-[#C78B74] group-hover:text-white'
@@ -40,7 +40,7 @@ export const FAQAccordion = ({ faqs = [] }) => {
                 </span>
 
                 {/* Question Text */}
-                <span className={`font-cinzel text-lg md:text-xl font-bold tracking-tight transition-colors duration-300 ${
+                <span className={`font-outfit text-base md:text-lg font-semibold tracking-tight transition-colors duration-300 ${
                   isOpen ? 'text-[#C78B74]' : 'text-[#1A1A1A] group-hover:text-[#C78B74]'
                 }`}>
                   {faq.question}

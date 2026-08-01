@@ -34,6 +34,7 @@ import svc_img1 from '../assets/services_media/svc_img1.jpeg';
 import svc_img2 from '../assets/services_media/svc_img2.jpeg';
 import svc_img3 from '../assets/services_media/svc_img3.jpeg';
 import svc_img4 from '../assets/services_media/svc_img4.jpeg';
+import sareeDrapingImg from '../assets/services_media/saree_draping.jpg';
 
 import vid1 from '../assets/media/vid1.mp4';
 import vid2 from '../assets/media/vid2.mp4';
@@ -243,12 +244,12 @@ export const galleryItems = [
   },
   {
     id: 410,
-    title: "Royal Silk Saree & Dupatta Pleating",
+    title: "Saree Pre-Pleating & Box Folding",
     category: "Party",
-    image: svc_img3,
+    image: sareeDrapingImg,
     client: "Saree Draping Client",
     location: "Divya Studio",
-    description: "Precision pinless saree draping and double dupatta pleating for weddings and receptions."
+    description: "Precision pre-pleated and box-folded sarees ready for effortless 2-minute draping."
   },
   {
     id: 411,

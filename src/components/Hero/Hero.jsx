@@ -42,9 +42,9 @@ export const Hero = () => {
           </div>
 
           {/* Main Headline */}
-          <h1 className="font-cinzel text-4xl sm:text-6xl xl:text-7xl font-bold leading-[1.12] mb-6 text-white tracking-tight">
+          <h1 className="font-outfit text-4xl sm:text-6xl xl:text-7xl font-extrabold leading-[1.12] mb-6 text-white tracking-tight">
             Enhancing Beauty, <br />
-            <span className="gold-gradient-text italic font-normal font-cormorant">Creating Timeless</span> Memories
+            <span className="gold-gradient-text">Creating Timeless Memories</span>
           </h1>
 
           {/* Subheading Paragraph */}
