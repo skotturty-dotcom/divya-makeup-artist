@@ -15,6 +15,7 @@ import {
 } from 'react-icons/fa';
 import { HiSparkles as FaSparkles } from 'react-icons/hi2';
 import { LuxuryButton } from '../Buttons/LuxuryButton';
+import { locationDetails } from '../../data/locationData';
 
 import logoImg from '../../assets/logo.jpg';
 import insta1 from '../../assets/insta_work/insta_img1.jpeg';
@@ -126,16 +127,16 @@ export const Footer = () => {
           {/* Col 3: Location Pages Links */}
           <div>
             <h4 className="font-serif text-lg font-semibold text-white mb-4 relative inline-block after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-8 after:h-[2px] after:bg-[#C78B74]">
-              Hyderabad Localities
+              Hyderabad & Telangana Cities
             </h4>
             <ul className="space-y-2 font-sans text-xs text-white/70">
-              <li><Link to="/location/bridal-makeup-artist-nizampet" className="hover:text-[#C78B74] transition-colors">Nizampet</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-kukatpally" className="hover:text-[#C78B74] transition-colors">Kukatpally & KPHB</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-bachupally" className="hover:text-[#C78B74] transition-colors">Bachupally</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-miyapur" className="hover:text-[#C78B74] transition-colors">Miyapur</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-pragathi-nagar" className="hover:text-[#C78B74] transition-colors">Pragathi Nagar</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-madhapur" className="hover:text-[#C78B74] transition-colors">Madhapur & Gachibowli</Link></li>
-              <li><Link to="/location/bridal-makeup-artist-jubilee-hills" className="hover:text-[#C78B74] transition-colors">Jubilee Hills & Banjara Hills</Link></li>
+              {Object.values(locationDetails).map((item) => (
+                <li key={item.slug}>
+                  <Link to={`/location/${item.slug}`} className="hover:text-[#C78B74] transition-colors">
+                    {item.city}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

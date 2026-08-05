@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 
 export const SEO = ({
-  title = "Makeover by Divyas | Best Bridal Makeup Artist in Nagpur",
-  description = "Looking for the best bridal makeup artist in Nagpur? Makeover by Divyas offers bridal makeup, reception makeup, HD makeup, airbrush makeup, saree draping, hairstyling, and party makeup.",
-  keywords = "Bridal Makeup Artist in Nagpur, Best Bridal Makeup Artist in Nagpur, Professional Makeup Artist Nagpur, HD Makeup Artist Nagpur, Airbrush Makeup Nagpur, Reception Makeup Artist Nagpur, Engagement Makeup Artist Nagpur, Party Makeup Artist Nagpur, Saree Draping Services Nagpur, Bridal Hairstylist Nagpur, Wedding Makeup Artist Nagpur, Bridal Makeup Near Me, Professional Makeup Near Me, Makeup Artist in Maharashtra, Wedding Makeup Nagpur, Bridal Makeup Packages Nagpur, Makeup Studio Nagpur, Luxury Bridal Makeup Nagpur, Destination Wedding Makeup Artist, Bridal Saree Draping Nagpur",
+  title = "Makeover by Divyas | Best Bridal Makeup Artist in Hyderabad",
+  description = "Looking for the best bridal makeup artist in Hyderabad? Makeover by Divyas offers bridal makeup, reception makeup, HD makeup, airbrush makeup, saree draping, hairstyling, and party makeup in Nizampet, Kukatpally, and all across Hyderabad.",
+  keywords = "Bridal Makeup Artist in Hyderabad, Best Bridal Makeup Artist in Hyderabad, Professional Makeup Artist Hyderabad, HD Makeup Artist Hyderabad, Airbrush Makeup Hyderabad, Reception Makeup Artist Hyderabad, Engagement Makeup Artist Hyderabad, Party Makeup Artist Hyderabad, Saree Draping Services Hyderabad, Bridal Hairstylist Hyderabad, Wedding Makeup Artist Hyderabad, Bridal Makeup Near Me, Professional Makeup Near Me, Makeup Artist in Telangana, Wedding Makeup Hyderabad, Bridal Makeup Packages Hyderabad, Makeup Studio Hyderabad, Luxury Bridal Makeup Hyderabad, Destination Wedding Makeup Artist, Bridal Saree Draping Hyderabad",
   canonicalUrl = "https://www.makeoverbydivyas.in/",
   ogImage = "https://www.makeoverbydivyas.in/src/assets/logo.jpg",
   ogType = "website",

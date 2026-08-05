@@ -161,5 +161,71 @@ Whether your celebration is at local convention halls in Nizampet, royal banquet
     keyHighlights: ["On-Location Setup in Luxury Venues", "Long-Wear Sweat-Proof Base"],
     serviceAreas: ["Jubilee Hills", "Banjara Hills", "Film Nagar", "Madhapur"],
     faqs: [{ question: "Do you travel to Jubilee Hills convention halls?", answer: "Yes, we provide outstation and local venue makeup travel." }]
+  },
+
+  "bridal-makeup-artist-kondapur": {
+    slug: "bridal-makeup-artist-kondapur",
+    city: "Kondapur, Hyderabad",
+    title: "Bridal Makeup Artist in Kondapur Hyderabad | Makeover by Divyas",
+    metaDescription: "Top bridal makeup artist in Kondapur & Hitec City, Hyderabad. Makeover by Divyas provides luxury HD bridal makeup, airbrush makeover, saree draping & hairstyles.",
+    h1: "Best Bridal Makeup Artist in Kondapur, Hyderabad",
+    subtitle: "High-Definition & Airbrush Bridal Makeup Services in Kondapur",
+    image: dm_img10,
+    altText: "Bridal makeup artist in Kondapur Hyderabad Makeover by Divyas",
+    rating: "4.9 (135+ Kondapur Weddings)",
+    contentOverview: `Kondapur is a vibrant hub with premier convention centers and luxury wedding venues. Makeover by Divyas brings red-carpet quality bridal aesthetics directly to your venue or suite in Kondapur.`,
+    keyHighlights: [
+      "On-Location Setup across Kondapur & Hitec City",
+      "Sweat-Proof & Long-Lasting 4K Airbrush Base",
+      "Specialized Poola Jada & Saree Draping Services"
+    ],
+    serviceAreas: ["Kondapur X Roads", "Hafeezpet", "Botanical Garden Road", "Kothaguda", "Hitec City"],
+    faqs: [
+      { question: "Do you travel to hotel suites & banquets in Kondapur?", answer: "Yes, we offer complete venue-side setup across Kondapur and surrounding areas." }
+    ]
+  },
+
+  "bridal-makeup-artist-secunderabad": {
+    slug: "bridal-makeup-artist-secunderabad",
+    city: "Secunderabad, Hyderabad",
+    title: "Bridal Makeup Artist in Secunderabad | Makeover by Divyas",
+    metaDescription: "Premier bridal makeup artist in Secunderabad. Makeover by Divyas offers HD bridal makeup, airbrush makeup, saree draping & hair styling for weddings in Secunderabad.",
+    h1: "Top Bridal Makeup Artist in Secunderabad",
+    subtitle: "Regal & Modern Bridal Transformations in Secunderabad",
+    image: img2,
+    altText: "Bridal makeup artist in Secunderabad Makeover by Divyas",
+    rating: "4.9 (160+ Secunderabad Weddings)",
+    contentOverview: `Secunderabad features iconic heritage venues and luxury wedding halls. Makeover by Divyas delivers customized bridal looks that stay fresh and radiant throughout all ceremonies.`,
+    keyHighlights: [
+      "Available across all Secunderabad marriage halls",
+      "HD & 3D Airbrush Base options",
+      "Traditional & Contemporary Hair Artistry"
+    ],
+    serviceAreas: ["Begumpet", "East Marredpally", "Sainikpuri", "Alwal", "Tarnaka", "Karkhana"],
+    faqs: [
+      { question: "Can we book bridal makeup for Secunderabad marriage halls?", answer: "Yes, our team travels to all convention halls and venues in Secunderabad." }
+    ]
+  },
+
+  "bridal-makeup-artist-warangal": {
+    slug: "bridal-makeup-artist-warangal",
+    city: "Warangal & Hanamkonda",
+    title: "Bridal Makeup Artist in Warangal & Hanamkonda | Makeover by Divyas",
+    metaDescription: "Book top bridal makeup artist in Warangal & Hanamkonda. Makeover by Divyas offers destination bridal makeup, HD airbrush makeovers & saree draping.",
+    h1: "Best Bridal Makeup Artist in Warangal & Hanamkonda",
+    subtitle: "Destination Bridal Makeup Services in Warangal",
+    image: svc_img1,
+    altText: "Bridal makeup artist in Warangal Telangana Makeover by Divyas",
+    rating: "5.0 (80+ Outstation Weddings)",
+    contentOverview: `Makeover by Divyas provides outstation destination makeup services in Warangal, Hanamkonda, and Kazipet. Get celebrity-level bridal transformations at your venue.`,
+    keyHighlights: [
+      "Destination & Outstation Travel Available",
+      "Premium International Cosmetics",
+      "Full Bridal Party & Family Packages"
+    ],
+    serviceAreas: ["Warangal", "Hanamkonda", "Kazipet", "Subedari"],
+    faqs: [
+      { question: "Do you travel from Hyderabad to Warangal for weddings?", answer: "Yes! Divya and her team travel for outstation wedding bookings across Telangana including Warangal." }
+    ]
   }
 };

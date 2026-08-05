@@ -20,13 +20,13 @@ export const ServicePageTemplate = ({ customSlug }) => {
       "name": "Makeover by Divyas",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Nagpur",
-        "addressRegion": "Maharashtra",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Telangana",
         "addressCountry": "IN"
       },
       "telephone": "+919876543210"
     },
-    "areaServed": "Nagpur",
+    "areaServed": "Hyderabad",
     "description": service.metaDescription,
     "image": "https://www.makeoverbydivyas.in/src/assets/logo.jpg"
   };
@@ -45,7 +45,7 @@ export const ServicePageTemplate = ({ customSlug }) => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#C78B74]/10 text-[#C78B74] font-medium text-xs tracking-wider uppercase mb-4">
-              <FaStar className="w-3.5 h-3.5 text-[#C78B74]" /> {service.category} • Nagpur, MH
+              <FaStar className="w-3.5 h-3.5 text-[#C78B74]" /> {service.category} • Hyderabad, TS
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#2B2B2B] font-bold leading-tight mb-4">
               {service.h1}
@@ -156,7 +156,7 @@ export const ServicePageTemplate = ({ customSlug }) => {
             {/* Testimonials */}
             {service.testimonials && (
               <div className="bg-white p-8 rounded-2xl border border-[#E8D5C8]/40 shadow-xs">
-                <h2 className="text-2xl font-serif text-[#2B2B2B] font-bold mb-6">Client Reviews in Nagpur</h2>
+                <h2 className="text-2xl font-serif text-[#2B2B2B] font-bold mb-6">Client Reviews in Hyderabad</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {service.testimonials.map((t, tidx) => (
                     <div key={tidx} className="p-5 bg-[#FAF4F0]/60 rounded-xl border border-[#E8D5C8]/40">
@@ -177,7 +177,7 @@ export const ServicePageTemplate = ({ customSlug }) => {
           <div className="space-y-8">
             <div className="sticky top-28 bg-white p-6 rounded-2xl border border-[#E8D5C8] shadow-lg text-center">
               <h3 className="text-xl font-serif font-bold text-[#2B2B2B] mb-2">Book Your Appointment</h3>
-              <p className="text-sm text-gray-600 mb-6">Lock your date with Makeover by Divyas in Nagpur.</p>
+              <p className="text-sm text-gray-600 mb-6">Lock your date with Makeover by Divyas in Hyderabad.</p>
               
               <div className="space-y-3 mb-6">
                 <Link to="/book-appointment" className="w-full inline-flex items-center justify-center gap-2 bg-[#C78B74] hover:bg-[#b07560] text-white py-3 rounded-xl font-medium transition-all shadow-md">
@@ -196,7 +196,7 @@ export const ServicePageTemplate = ({ customSlug }) => {
                 <h4 className="font-serif font-bold text-sm text-[#2B2B2B] uppercase tracking-wider mb-3">Explore Other Services</h4>
                 <ul className="space-y-2 text-sm">
                   <li><Link to="/bridal-makeup" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Bridal Makeup Artist <FiArrowRight /></Link></li>
-                  <li><Link to="/airbrush-makeup" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Airbrush Makeup Nagpur <FiArrowRight /></Link></li>
+                  <li><Link to="/airbrush-makeup" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Airbrush Makeup Hyderabad <FiArrowRight /></Link></li>
                   <li><Link to="/reception-makeup" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Reception Makeup <FiArrowRight /></Link></li>
                   <li><Link to="/engagement-makeup" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Engagement Makeup <FiArrowRight /></Link></li>
                   <li><Link to="/saree-draping" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Saree Draping Services <FiArrowRight /></Link></li>

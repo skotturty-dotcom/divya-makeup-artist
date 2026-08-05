@@ -7,6 +7,7 @@ import { HiSparkles as FaSparkles } from 'react-icons/hi2';
 import { useScrollPosition } from '../../hooks/useScrollPosition';
 import { LuxuryButton } from '../Buttons/LuxuryButton';
 
+import { locationDetails } from '../../data/locationData';
 import logoImg from '../../assets/logo.jpg';
 
 export const Navbar = () => {
@@ -27,15 +28,10 @@ export const Navbar = () => {
     { name: 'Bridal Hairstyling & Poola Jada', path: '/bridal-hairstyle' },
   ];
 
-  const locationSubLinks = [
-    { name: 'Nizampet', path: '/location/bridal-makeup-artist-nizampet' },
-    { name: 'Kukatpally & KPHB', path: '/location/bridal-makeup-artist-kukatpally' },
-    { name: 'Bachupally', path: '/location/bridal-makeup-artist-bachupally' },
-    { name: 'Miyapur', path: '/location/bridal-makeup-artist-miyapur' },
-    { name: 'Pragathi Nagar', path: '/location/bridal-makeup-artist-pragathi-nagar' },
-    { name: 'Madhapur & Gachibowli', path: '/location/bridal-makeup-artist-madhapur' },
-    { name: 'Jubilee Hills', path: '/location/bridal-makeup-artist-jubilee-hills' },
-  ];
+  const locationSubLinks = Object.values(locationDetails).map(item => ({
+    name: item.city,
+    path: `/location/${item.slug}`
+  }));
 
   const closeMenu = () => {
     setMobileMenuOpen(false);

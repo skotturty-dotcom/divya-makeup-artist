@@ -8,7 +8,7 @@ import { FiArrowRight } from 'react-icons/fi';
 export const LocationPageTemplate = ({ customSlug }) => {
   const { slug: routeSlug } = useParams();
   const slug = customSlug || routeSlug;
-  const loc = locationDetails[slug] || locationDetails["bridal-makeup-artist-nagpur"];
+  const loc = locationDetails[slug] || locationDetails["bridal-makeup-artist-nizampet"];
 
   // Schema.org LocalBusiness & ProfessionalService
   const schemaData = {
@@ -21,13 +21,13 @@ export const LocationPageTemplate = ({ customSlug }) => {
     "address": {
       "@type": "PostalAddress",
       "addressLocality": loc.city,
-      "addressRegion": "Maharashtra",
+      "addressRegion": "Telangana",
       "addressCountry": "IN"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 21.1458,
-      "longitude": 79.0882
+      "latitude": 17.5186,
+      "longitude": 78.3844
     },
     "priceRange": "₹₹₹"
   };
@@ -46,7 +46,7 @@ export const LocationPageTemplate = ({ customSlug }) => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#C78B74]/10 text-[#C78B74] font-medium text-xs tracking-wider uppercase mb-4">
-              <FaMapMarkerAlt className="text-[#C78B74]" /> Destination & Venue Services in {loc.city}, MH
+              <FaMapMarkerAlt className="text-[#C78B74]" /> Destination & Venue Services in {loc.city}, Telangana
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-[#2B2B2B] font-bold leading-tight mb-4">
               {loc.h1}
@@ -126,7 +126,7 @@ export const LocationPageTemplate = ({ customSlug }) => {
               <div className="rounded-xl overflow-hidden h-72 w-full border border-[#E8D5C8]">
                 <iframe 
                   title={`Makeover by Divyas Map ${loc.city}`}
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119066.41709540026!2d79.00247653835698!3d21.1458004128509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.8329618175593!2d78.3841982!3d17.5168862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9210214a1a5b%3A0xc3160a2b8e3a2410!2sNizampet%2C%20Hyderabad%2C%20Telangana%20500090!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                   width="100%" 
                   height="100%" 
                   style={{ border: 0 }} 
@@ -170,17 +170,15 @@ export const LocationPageTemplate = ({ customSlug }) => {
 
               {/* Location links list */}
               <div className="text-left border-t border-[#E8D5C8] pt-6">
-                <h4 className="font-serif font-bold text-sm text-[#2B2B2B] uppercase tracking-wider mb-3">Other Nearby Cities</h4>
+                <h4 className="font-serif font-bold text-sm text-[#2B2B2B] uppercase tracking-wider mb-3">Other Nearby Cities & Areas</h4>
                 <ul className="space-y-2 text-sm">
-                  <li><Link to="/location/bridal-makeup-artist-nagpur" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Nagpur <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-wardha" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Wardha <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-amravati" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Amravati <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-chandrapur" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Chandrapur <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-bhandara" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Bhandara <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-gondia" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Gondia <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-yavatmal" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Yavatmal <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-kamptee" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Kamptee <FiArrowRight /></Link></li>
-                  <li><Link to="/location/bridal-makeup-artist-hingna" className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">Hingna <FiArrowRight /></Link></li>
+                  {Object.values(locationDetails).map((locItem) => (
+                    <li key={locItem.slug}>
+                      <Link to={`/location/${locItem.slug}`} className="text-gray-700 hover:text-[#C78B74] flex items-center justify-between">
+                        {locItem.city} <FiArrowRight />
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
